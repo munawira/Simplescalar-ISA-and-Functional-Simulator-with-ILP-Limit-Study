@@ -1,0 +1,1523 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESS_LATENCY	mt.h	19;"	d
+ACTIVE_SIZE	debug.h	/^	unsigned int ACTIVE_SIZE;$/;"	m	class:debug_buffer
+AGEN_LATENCY	mt.h	15;"	d
+AND	ansidecl.h	102;"	d
+AND	ansidecl.h	123;"	d
+ANSI_PROTOTYPES	ansidecl.h	115;"	d
+BCODE	ss.h	155;"	d
+BFD64	bfd.h	55;"	d
+BFD_ABS_SECTION_NAME	bfd.h	908;"	d
+BFD_ARCH_SIZE	bfd.h	52;"	d
+BFD_COM_SECTION_NAME	bfd.h	910;"	d
+BFD_FORT_COMM_DEFAULT_VALUE	bfd.h	1587;"	d
+BFD_HOST_64_BIT	bfd.h	118;"	d
+BFD_IND_SECTION_NAME	bfd.h	911;"	d
+BFD_IS_RELAXABLE	bfd.h	221;"	d
+BFD_JUMP_TABLE_ARCHIVE	bfd.h	2067;"	d
+BFD_JUMP_TABLE_COPY	bfd.h	2046;"	d
+BFD_JUMP_TABLE_CORE	bfd.h	2058;"	d
+BFD_JUMP_TABLE_DYNAMIC	bfd.h	2180;"	d
+BFD_JUMP_TABLE_GENERIC	bfd.h	2030;"	d
+BFD_JUMP_TABLE_LINK	bfd.h	2152;"	d
+BFD_JUMP_TABLE_RELOCS	bfd.h	2130;"	d
+BFD_JUMP_TABLE_SYMBOLS	bfd.h	2091;"	d
+BFD_JUMP_TABLE_WRITE	bfd.h	2143;"	d
+BFD_NO_MORE_SYMBOLS	bfd.h	234;"	d
+BFD_RELOC_14	bfd.h	/^  BFD_RELOC_14,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_16	bfd.h	/^  BFD_RELOC_16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_16_BASEREL	bfd.h	/^  BFD_RELOC_16_BASEREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_16_PCREL	bfd.h	/^  BFD_RELOC_16_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_16_PCREL_S2	bfd.h	/^  BFD_RELOC_16_PCREL_S2,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_23_PCREL_S2	bfd.h	/^  BFD_RELOC_23_PCREL_S2,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_24_PCREL	bfd.h	/^  BFD_RELOC_24_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_26	bfd.h	/^  BFD_RELOC_26,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_32	bfd.h	/^  BFD_RELOC_32,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_32_BASEREL	bfd.h	/^  BFD_RELOC_32_BASEREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_32_PCREL	bfd.h	/^  BFD_RELOC_32_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_32_PCREL_S2	bfd.h	/^  BFD_RELOC_32_PCREL_S2,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_386_COPY	bfd.h	/^  BFD_RELOC_386_COPY,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_386_GLOB_DAT	bfd.h	/^  BFD_RELOC_386_GLOB_DAT,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_386_GOT32	bfd.h	/^  BFD_RELOC_386_GOT32,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_386_GOTOFF	bfd.h	/^  BFD_RELOC_386_GOTOFF,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_386_GOTPC	bfd.h	/^  BFD_RELOC_386_GOTPC,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_386_JUMP_SLOT	bfd.h	/^  BFD_RELOC_386_JUMP_SLOT,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_386_PLT32	bfd.h	/^  BFD_RELOC_386_PLT32,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_386_RELATIVE	bfd.h	/^  BFD_RELOC_386_RELATIVE,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_64	bfd.h	/^  BFD_RELOC_64,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_64_PCREL	bfd.h	/^  BFD_RELOC_64_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_8	bfd.h	/^  BFD_RELOC_8,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_8_BASEREL	bfd.h	/^  BFD_RELOC_8_BASEREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_8_FFnn	bfd.h	/^  BFD_RELOC_8_FFnn,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_8_PCREL	bfd.h	/^  BFD_RELOC_8_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ALPHA_GPDISP_HI16	bfd.h	/^  BFD_RELOC_ALPHA_GPDISP_HI16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ALPHA_GPDISP_LO16	bfd.h	/^  BFD_RELOC_ALPHA_GPDISP_LO16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ALPHA_HINT	bfd.h	/^  BFD_RELOC_ALPHA_HINT,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ALPHA_LITERAL	bfd.h	/^  BFD_RELOC_ALPHA_LITERAL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ALPHA_LITUSE	bfd.h	/^  BFD_RELOC_ALPHA_LITUSE,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ARM_CP_OFF_IMM	bfd.h	/^  BFD_RELOC_ARM_CP_OFF_IMM,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ARM_IMMEDIATE	bfd.h	/^  BFD_RELOC_ARM_IMMEDIATE,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ARM_MULTI	bfd.h	/^  BFD_RELOC_ARM_MULTI,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ARM_OFFSET_IMM	bfd.h	/^  BFD_RELOC_ARM_OFFSET_IMM,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ARM_PCREL_BRANCH	bfd.h	/^  BFD_RELOC_ARM_PCREL_BRANCH,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ARM_SHIFT_IMM	bfd.h	/^  BFD_RELOC_ARM_SHIFT_IMM,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_ARM_SWI	bfd.h	/^  BFD_RELOC_ARM_SWI,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_CTOR	bfd.h	/^  BFD_RELOC_CTOR,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_GPREL16	bfd.h	/^  BFD_RELOC_GPREL16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_GPREL32	bfd.h	/^  BFD_RELOC_GPREL32,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_HI16	bfd.h	/^  BFD_RELOC_HI16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_HI16_S	bfd.h	/^  BFD_RELOC_HI16_S,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_HI22	bfd.h	/^  BFD_RELOC_HI22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_I960_CALLJ	bfd.h	/^  BFD_RELOC_I960_CALLJ,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_LO10	bfd.h	/^  BFD_RELOC_LO10,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_LO16	bfd.h	/^  BFD_RELOC_LO16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_MIPS_CALL16	bfd.h	/^  BFD_RELOC_MIPS_CALL16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_MIPS_GOT16	bfd.h	/^  BFD_RELOC_MIPS_GOT16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_MIPS_GPREL	bfd.h	1447;"	d
+BFD_RELOC_MIPS_GPREL32	bfd.h	1455;"	d
+BFD_RELOC_MIPS_JMP	bfd.h	/^  BFD_RELOC_MIPS_JMP,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_MIPS_LITERAL	bfd.h	/^  BFD_RELOC_MIPS_LITERAL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NONE	bfd.h	/^  BFD_RELOC_NONE,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_DISP_16	bfd.h	/^  BFD_RELOC_NS32K_DISP_16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_DISP_16_PCREL	bfd.h	/^  BFD_RELOC_NS32K_DISP_16_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_DISP_32	bfd.h	/^  BFD_RELOC_NS32K_DISP_32,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_DISP_32_PCREL	bfd.h	/^  BFD_RELOC_NS32K_DISP_32_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_DISP_8	bfd.h	/^  BFD_RELOC_NS32K_DISP_8,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_DISP_8_PCREL	bfd.h	/^  BFD_RELOC_NS32K_DISP_8_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_IMM_16	bfd.h	/^  BFD_RELOC_NS32K_IMM_16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_IMM_16_PCREL	bfd.h	/^  BFD_RELOC_NS32K_IMM_16_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_IMM_32	bfd.h	/^  BFD_RELOC_NS32K_IMM_32,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_IMM_32_PCREL	bfd.h	/^  BFD_RELOC_NS32K_IMM_32_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_IMM_8	bfd.h	/^  BFD_RELOC_NS32K_IMM_8,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_NS32K_IMM_8_PCREL	bfd.h	/^  BFD_RELOC_NS32K_IMM_8_PCREL,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_PCREL_HI16_S	bfd.h	/^  BFD_RELOC_PCREL_HI16_S,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_PCREL_LO16	bfd.h	/^  BFD_RELOC_PCREL_LO16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_PPC_B26	bfd.h	/^  BFD_RELOC_PPC_B26,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_PPC_BA26	bfd.h	/^  BFD_RELOC_PPC_BA26,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_PPC_TOC16	bfd.h	/^  BFD_RELOC_PPC_TOC16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC13	bfd.h	/^  BFD_RELOC_SPARC13,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC22	bfd.h	/^  BFD_RELOC_SPARC22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_10	bfd.h	/^  BFD_RELOC_SPARC_10,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_11	bfd.h	/^  BFD_RELOC_SPARC_11,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_64	bfd.h	1368;"	d
+BFD_RELOC_SPARC_BASE13	bfd.h	/^  BFD_RELOC_SPARC_BASE13,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_BASE22	bfd.h	/^  BFD_RELOC_SPARC_BASE22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_COPY	bfd.h	/^  BFD_RELOC_SPARC_COPY,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_GLOB_DAT	bfd.h	/^  BFD_RELOC_SPARC_GLOB_DAT,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_GLOB_JMP	bfd.h	/^  BFD_RELOC_SPARC_GLOB_JMP,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_GOT10	bfd.h	/^  BFD_RELOC_SPARC_GOT10,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_GOT13	bfd.h	/^  BFD_RELOC_SPARC_GOT13,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_GOT22	bfd.h	/^  BFD_RELOC_SPARC_GOT22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_HH22	bfd.h	/^  BFD_RELOC_SPARC_HH22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_HM10	bfd.h	/^  BFD_RELOC_SPARC_HM10,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_JMP_SLOT	bfd.h	/^  BFD_RELOC_SPARC_JMP_SLOT,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_LM22	bfd.h	/^  BFD_RELOC_SPARC_LM22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_LO7	bfd.h	/^  BFD_RELOC_SPARC_LO7,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_OLO10	bfd.h	/^  BFD_RELOC_SPARC_OLO10,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_PC10	bfd.h	/^  BFD_RELOC_SPARC_PC10,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_PC22	bfd.h	/^  BFD_RELOC_SPARC_PC22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_PC_HH22	bfd.h	/^  BFD_RELOC_SPARC_PC_HH22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_PC_HM10	bfd.h	/^  BFD_RELOC_SPARC_PC_HM10,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_PC_LM22	bfd.h	/^  BFD_RELOC_SPARC_PC_LM22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_RELATIVE	bfd.h	/^  BFD_RELOC_SPARC_RELATIVE,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_UA32	bfd.h	/^  BFD_RELOC_SPARC_UA32,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_WDISP16	bfd.h	/^  BFD_RELOC_SPARC_WDISP16,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_WDISP19	bfd.h	/^  BFD_RELOC_SPARC_WDISP19,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_WDISP22	bfd.h	/^  BFD_RELOC_SPARC_WDISP22,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_SPARC_WPLT30	bfd.h	/^  BFD_RELOC_SPARC_WPLT30,$/;"	e	enum:bfd_reloc_code_real
+BFD_RELOC_UNUSED	bfd.h	/^  BFD_RELOC_UNUSED };$/;"	e	enum:bfd_reloc_code_real
+BFD_SEND	bfd.h	1958;"	d
+BFD_SEND	bfd.h	1962;"	d
+BFD_SEND	bfd.h	1963;"	d
+BFD_SEND_FMT	bfd.h	1968;"	d
+BFD_SEND_FMT	bfd.h	1972;"	d
+BFD_SEND_FMT	bfd.h	1973;"	d
+BFD_TRADITIONAL_FORMAT	bfd.h	227;"	d
+BFD_UND_SECTION_NAME	bfd.h	909;"	d
+BFD_VERSION	bfd.h	51;"	d
+BS	ss.h	158;"	d
+BSF_CONSTRUCTOR	bfd.h	1598;"	d
+BSF_DEBUGGING	bfd.h	1564;"	d
+BSF_DYNAMIC	bfd.h	1616;"	d
+BSF_EXPORT	bfd.h	1556;"	d
+BSF_FILE	bfd.h	1613;"	d
+BSF_FUNCTION	bfd.h	1568;"	d
+BSF_GLOBAL	bfd.h	1552;"	d
+BSF_INDIRECT	bfd.h	1609;"	d
+BSF_KEEP	bfd.h	1571;"	d
+BSF_KEEP_G	bfd.h	1572;"	d
+BSF_LOCAL	bfd.h	1548;"	d
+BSF_NOT_AT_END	bfd.h	1595;"	d
+BSF_NO_FLAGS	bfd.h	1544;"	d
+BSF_OLD_COMMON	bfd.h	1584;"	d
+BSF_SECTION_SYM	bfd.h	1580;"	d
+BSF_WARNING	bfd.h	1604;"	d
+BSF_WEAK	bfd.h	1576;"	d
+CAT	bfd.h	409;"	d
+CAT	bfd.h	414;"	d
+CAT	bfd.h	419;"	d
+CAT3	bfd.h	410;"	d
+CAT3	bfd.h	415;"	d
+CAT3	bfd.h	420;"	d
+CAT4	bfd.h	411;"	d
+CAT4	bfd.h	417;"	d
+CAT4	bfd.h	421;"	d
+COFF_SWAP_TABLE	bfd.h	426;"	d
+CONNECT	ss.h	258;"	d
+CONNECT	ss.h	268;"	d
+CONNECT	ss.h	278;"	d
+CONNECT	ss.h	288;"	d
+CONST	ansidecl.h	104;"	d
+CONST	ansidecl.h	125;"	d
+DB	Thread.h	/^debug_buffer *DB;$/;"	m	class:Thread
+DB_SIZE	Thread.h	108;"	d
+DEBUG_INDEX_INVALID	debug.h	13;"	d
+DEBUG_SIZE	debug.h	/^	unsigned int DEBUG_SIZE;$/;"	m	class:debug_buffer
+DEFFU	ss.h	255;"	d
+DEFFU	ss.h	264;"	d
+DEFFU	ss.h	275;"	d
+DEFFU	ss.h	284;"	d
+DEFINST	ss.h	256;"	d
+DEFINST	ss.h	265;"	d
+DEFINST	ss.h	276;"	d
+DEFINST	ss.h	285;"	d
+DEFLDST	ss.h	266;"	d
+DEFLDST	ss.h	286;"	d
+DEFLINK	ss.h	257;"	d
+DEFLINK	ss.h	267;"	d
+DEFLINK	ss.h	277;"	d
+DEFLINK	ss.h	287;"	d
+DEFUN	ansidecl.h	110;"	d
+DEFUN	ansidecl.h	134;"	d
+DEFUN_VOID	ansidecl.h	111;"	d
+DEFUN_VOID	ansidecl.h	135;"	d
+DIV0	ss.h	221;"	d
+DIV0	ss.h	228;"	d
+DOTS	ansidecl.h	107;"	d
+DOTS	ansidecl.h	131;"	d
+DYNAMIC	bfd.h	207;"	d
+D_MAX_RDST	debug.h	10;"	d
+D_MAX_RSRC	debug.h	11;"	d
+D_PAGED	bfd.h	216;"	d
+ECOFF_EB_MAGIC	ecoff.h	66;"	d
+ECOFF_EL_MAGIC	ecoff.h	67;"	d
+ECOFF_H	ecoff.h	64;"	d
+ECOFF_R_SN_BSS	ecoff.h	200;"	d
+ECOFF_R_SN_DATA	ecoff.h	197;"	d
+ECOFF_R_SN_RDATA	ecoff.h	196;"	d
+ECOFF_R_SN_SBSS	ecoff.h	199;"	d
+ECOFF_R_SN_SDATA	ecoff.h	198;"	d
+ECOFF_R_SN_TEXT	ecoff.h	195;"	d
+ECOFF_STYP_BSS	ecoff.h	207;"	d
+ECOFF_STYP_DATA	ecoff.h	204;"	d
+ECOFF_STYP_RDATA	ecoff.h	203;"	d
+ECOFF_STYP_SBSS	ecoff.h	206;"	d
+ECOFF_STYP_SDATA	ecoff.h	205;"	d
+ECOFF_STYP_TEXT	ecoff.h	202;"	d
+ECOFF_magicSym	ecoff.h	135;"	d
+ECOFF_stBlock	ecoff.h	216;"	d
+ECOFF_stConstant	ecoff.h	224;"	d
+ECOFF_stEnd	ecoff.h	217;"	d
+ECOFF_stFile	ecoff.h	220;"	d
+ECOFF_stForward	ecoff.h	222;"	d
+ECOFF_stGlobal	ecoff.h	210;"	d
+ECOFF_stLabel	ecoff.h	214;"	d
+ECOFF_stLocal	ecoff.h	213;"	d
+ECOFF_stMember	ecoff.h	218;"	d
+ECOFF_stNil	ecoff.h	209;"	d
+ECOFF_stParam	ecoff.h	212;"	d
+ECOFF_stProc	ecoff.h	215;"	d
+ECOFF_stRegReloc	ecoff.h	221;"	d
+ECOFF_stStatic	ecoff.h	211;"	d
+ECOFF_stStaticProc	ecoff.h	223;"	d
+ECOFF_stTypedef	ecoff.h	219;"	d
+ENDIAN_H	_endian.h	49;"	d
+EXEC_P	bfd.h	190;"	d
+EXFUN	ansidecl.h	109;"	d
+EXFUN	ansidecl.h	133;"	d
+FALSE	misc.h	60;"	d
+FCC_ID	mt.h	8;"	d
+FD	ss.h	146;"	d
+FDI	mt.h	12;"	d
+FPALIGN	ss.h	223;"	d
+FPALIGN	ss.h	230;"	d
+FPR_BASE	mt.h	5;"	d
+FS	ss.h	144;"	d
+FT	ss.h	145;"	d
+FUClass_NA	ss.h	/^  FUClass_NA = 0,	\/* inst does not use a FU *\/$/;"	e	enum:ss_fu_class
+F_COND	ss.h	239;"	d
+F_CTRL	ss.h	237;"	d
+F_DIRECT	ss.h	245;"	d
+F_DISP	ss.h	243;"	d
+F_FCOMP	ss.h	236;"	d
+F_ICOMP	ss.h	235;"	d
+F_LOAD	ss.h	241;"	d
+F_LONGLAT	ss.h	247;"	d
+F_MEM	ss.h	240;"	d
+F_RR	ss.h	244;"	d
+F_STORE	ss.h	242;"	d
+F_TRAP	ss.h	246;"	d
+F_UNCOND	ss.h	238;"	d
+HAS_DEBUG	bfd.h	197;"	d
+HAS_LINENO	bfd.h	194;"	d
+HAS_LOCALS	bfd.h	204;"	d
+HAS_RELOC	bfd.h	187;"	d
+HAS_SYMS	bfd.h	200;"	d
+HI_ID	mt.h	6;"	d
+HOWTO	bfd.h	1248;"	d
+HOWTO_PREPARE	bfd.h	1252;"	d
+IMM	ss.h	148;"	d
+INC_DEC	ss.h	117;"	d
+INFO	info.h	4;"	d
+INLINE	bfd.h	60;"	d
+INLINE	bfd.h	62;"	d
+INTALIGN	ss.h	222;"	d
+INTALIGN	ss.h	229;"	d
+IsBlocked	Thread.h	/^bool IsBlocked() {$/;"	f	class:Thread
+IsPow2	common.h	11;"	d
+IsShared	Thread.h	/^bool IsShared(unsigned int addr) {$/;"	f	class:Thread
+LLHIGH	misc.h	120;"	d
+LLLOW	misc.h	121;"	d
+LOADER_H	loader.h	2;"	d
+LONG_DOUBLE	ansidecl.h	100;"	d
+LONG_DOUBLE	ansidecl.h	121;"	d
+LO_ID	mt.h	7;"	d
+LWL_MACRO	I_hate_these_instructions.h	16;"	d
+LWL_MACRO	I_hate_these_instructions.h	44;"	d
+LWR_MACRO	I_hate_these_instructions.h	22;"	d
+LWR_MACRO	I_hate_these_instructions.h	50;"	d
+MAX	misc.h	113;"	d
+MAXBUFSIZE	syscall.h	351;"	d
+MAXINT	ss.h	212;"	d
+MAX_THREADS	Thread.h	557;"	d
+MDST_B	macros.h	17;"	d
+MDST_H	macros.h	24;"	d
+MDST_OPERAND	operand.h	/^MDST_OPERAND,$/;"	e	enum:__anon6
+MDST_W	macros.h	25;"	d
+MDST_WL	macros.h	26;"	d
+MDST_WR	macros.h	27;"	d
+MEMORY_H	memory.h	2;"	d
+MEM_BLOCK	memory.h	28;"	d
+MEM_BLOCK_SIZE	memory.h	22;"	d
+MEM_BYTE	memory.h	62;"	d
+MEM_HALF	memory.h	61;"	d
+MEM_OFFSET	memory.h	33;"	d
+MEM_TABLE_SIZE	memory.h	19;"	d
+MEM_WORD	memory.h	60;"	d
+MIN	misc.h	116;"	d
+MISC_H	misc.h	49;"	d
+MOD	common.h	4;"	d
+MOD_S	common.h	8;"	d
+MSRC_B	macros.h	6;"	d
+MSRC_H	macros.h	12;"	d
+MSRC_OPERAND	operand.h	/^MSRC_OPERAND,$/;"	e	enum:__anon6
+MSRC_W	macros.h	13;"	d
+MSRC_WL	macros.h	14;"	d
+MSRC_WR	macros.h	15;"	d
+NA	ss.h	123;"	d
+NADA	ss.h	126;"	d
+NEWHOWTO	bfd.h	1250;"	d
+NOARGS	ansidecl.h	103;"	d
+NOARGS	ansidecl.h	124;"	d
+NO_FLAGS	bfd.h	184;"	d
+NUM_FU_CLASSES	ss.h	/^  NUM_FU_CLASSES	\/* total functional unit classes *\/$/;"	e	enum:ss_fu_class
+NUM_HW_COUNTERS	Thread.h	140;"	d
+NUM_IOCTL_BYTES	syscall.h	357;"	d
+N_ELT	misc.h	127;"	d
+OFS	ss.h	157;"	d
+OP_MAX	ss.h	/^  OP_MAX	\/* number of opcodes + NA *\/$/;"	e	enum:ss_opcode
+OP_NA	ss.h	/^  OP_NA = 0,	\/* NA *\/$/;"	e	enum:ss_opcode
+OVER	ss.h	213;"	d
+OVER	ss.h	226;"	d
+PARAMS	ansidecl.h	114;"	d
+PARAMS	ansidecl.h	137;"	d
+PROTO	ansidecl.h	113;"	d
+PROTO	ansidecl.h	136;"	d
+PTR	ansidecl.h	119;"	d
+PTR	ansidecl.h	98;"	d
+PTRCONST	ansidecl.h	120;"	d
+PTRCONST	ansidecl.h	99;"	d
+PTR_INT_TYPE	obstack.h	136;"	d
+PTR_INT_TYPE	obstack.h	138;"	d
+RD	ss.h	136;"	d
+RDST	macros.h	4;"	d
+RDST_OPERAND	operand.h	/^RDST_OPERAND,$/;"	e	enum:__anon6
+REGS_H	regs.h	2;"	d
+ROUND_DOWN	misc.h	131;"	d
+ROUND_UP	misc.h	130;"	d
+RS	ss.h	132;"	d
+RS	ss.h	134;"	d
+RSRC	macros.h	1;"	d
+RSRC_A	macros.h	2;"	d
+RSRC_A_OPERAND	operand.h	/^RSRC_A_OPERAND$/;"	e	enum:__anon6
+RSRC_OPERAND	operand.h	/^RSRC_OPERAND,$/;"	e	enum:__anon6
+RT	ss.h	135;"	d
+Read	memory.h	/^enum mem_cmd { Read, Write };$/;"	e	enum:mem_cmd
+Rgp	ss.h	139;"	d
+Rsp	ss.h	140;"	d
+SEC_ALLOC	bfd.h	699;"	d
+SEC_CODE	bfd.h	718;"	d
+SEC_COFF_SHARED_LIBRARY	bfd.h	762;"	d
+SEC_CONSTRUCTOR	bfd.h	736;"	d
+SEC_CONSTRUCTOR_BSS	bfd.h	742;"	d
+SEC_CONSTRUCTOR_DATA	bfd.h	741;"	d
+SEC_CONSTRUCTOR_TEXT	bfd.h	740;"	d
+SEC_DATA	bfd.h	721;"	d
+SEC_DEBUGGING	bfd.h	775;"	d
+SEC_HAS_CONTENTS	bfd.h	747;"	d
+SEC_IN_MEMORY	bfd.h	781;"	d
+SEC_IS_COMMON	bfd.h	769;"	d
+SEC_LOAD	bfd.h	703;"	d
+SEC_NEVER_LOAD	bfd.h	751;"	d
+SEC_NO_FLAGS	bfd.h	694;"	d
+SEC_READONLY	bfd.h	715;"	d
+SEC_RELOC	bfd.h	707;"	d
+SEC_ROM	bfd.h	724;"	d
+SHAMT	ss.h	142;"	d
+SIGNED	ansidecl.h	106;"	d
+SIGNED	ansidecl.h	130;"	d
+SIM_H	sim.h	49;"	d
+SS_ADDR_TYPE	ss.h	/^typedef unsigned long SS_ADDR_TYPE;$/;"	t
+SS_BYTE_TYPE	ss.h	/^typedef char SS_BYTE_TYPE;$/;"	t
+SS_COMP_NOP	ss.h	101;"	d
+SS_COMP_OP	ss.h	99;"	d
+SS_COMP_POST_DBL_DEC	ss.h	107;"	d
+SS_COMP_POST_DBL_INC	ss.h	106;"	d
+SS_COMP_POST_DEC	ss.h	103;"	d
+SS_COMP_POST_INC	ss.h	102;"	d
+SS_COMP_PRE_DBL_DEC	ss.h	109;"	d
+SS_COMP_PRE_DBL_INC	ss.h	108;"	d
+SS_COMP_PRE_DEC	ss.h	105;"	d
+SS_COMP_PRE_INC	ss.h	104;"	d
+SS_COUNTER_TYPE	ss.h	/^typedef long long SS_COUNTER_TYPE;$/;"	t
+SS_DATA_BASE	ss.h	75;"	d
+SS_DOUBLE_TYPE	ss.h	/^typedef double SS_DOUBLE_TYPE;$/;"	t
+SS_FLOAT_TYPE	ss.h	/^typedef float SS_FLOAT_TYPE;$/;"	t
+SS_FU_NAME	ss.h	316;"	d
+SS_GP_REGNO	ss.h	85;"	d
+SS_H	ss.h	49;"	d
+SS_HALF_TYPE	ss.h	/^typedef short SS_HALF_TYPE;$/;"	t
+SS_INST_SIZE	ss.h	71;"	d
+SS_INST_TYPE	ss.h	/^} SS_INST_TYPE;$/;"	t	typeref:struct:__anon7
+SS_IOCTL_TCGETA	syscall.h	337;"	d
+SS_IOCTL_TCGETP	syscall.h	336;"	d
+SS_IOCTL_TCSETAW	syscall.h	341;"	d
+SS_IOCTL_TIOCGETC	syscall.h	342;"	d
+SS_IOCTL_TIOCGETP	syscall.h	334;"	d
+SS_IOCTL_TIOCGLTC	syscall.h	338;"	d
+SS_IOCTL_TIOCGWINSZ	syscall.h	340;"	d
+SS_IOCTL_TIOCLBIC	syscall.h	344;"	d
+SS_IOCTL_TIOCLBIS	syscall.h	345;"	d
+SS_IOCTL_TIOCLGET	syscall.h	346;"	d
+SS_IOCTL_TIOCLSET	syscall.h	347;"	d
+SS_IOCTL_TIOCSETC	syscall.h	343;"	d
+SS_IOCTL_TIOCSETP	syscall.h	335;"	d
+SS_IOCTL_TIOCSLTC	syscall.h	339;"	d
+SS_MAX_ENVIRON	ss.h	82;"	d
+SS_MAX_MASK	ss.h	293;"	d
+SS_NOP_INST	ss.h	250;"	d
+SS_NUM_REGS	ss.h	89;"	d
+SS_OPCODE	ss.h	96;"	d
+SS_OP_ENUM	ss.h	296;"	d
+SS_OP_FLAGS	ss.h	312;"	d
+SS_OP_FORMAT	ss.h	304;"	d
+SS_OP_FUCLASS	ss.h	308;"	d
+SS_OP_NAME	ss.h	300;"	d
+SS_O_APPEND	syscall.h	428;"	d
+SS_O_CREAT	syscall.h	429;"	d
+SS_O_EXCL	syscall.h	431;"	d
+SS_O_NOCTTY	syscall.h	433;"	d
+SS_O_NONBLOCK	syscall.h	432;"	d
+SS_O_RDONLY	syscall.h	425;"	d
+SS_O_RDWR	syscall.h	427;"	d
+SS_O_SYNC	syscall.h	434;"	d
+SS_O_TRUNC	syscall.h	430;"	d
+SS_O_WRONLY	syscall.h	426;"	d
+SS_PAGE_SIZE	ss.h	79;"	d
+SS_PTR_TYPE	ss.h	/^typedef void *SS_PTR_TYPE;$/;"	t
+SS_STACK_BASE	ss.h	76;"	d
+SS_STACK_REGNO	ss.h	86;"	d
+SS_SYS_accept	syscall.h	207;"	d
+SS_SYS_access	syscall.h	140;"	d
+SS_SYS_acct	syscall.h	158;"	d
+SS_SYS_adjtime	syscall.h	250;"	d
+SS_SYS_async_daemon	syscall.h	287;"	d
+SS_SYS_atomic_op	syscall.h	268;"	d
+SS_SYS_audcntl	syscall.h	319;"	d
+SS_SYS_audgen	syscall.h	320;"	d
+SS_SYS_bind	syscall.h	213;"	d
+SS_SYS_brk	syscall.h	124;"	d
+SS_SYS_cache_switch	syscall.h	330;"	d
+SS_SYS_cachectl	syscall.h	267;"	d
+SS_SYS_cacheflush	syscall.h	266;"	d
+SS_SYS_chdir	syscall.h	119;"	d
+SS_SYS_chmod	syscall.h	122;"	d
+SS_SYS_chown	syscall.h	123;"	d
+SS_SYS_chroot	syscall.h	168;"	d
+SS_SYS_close	syscall.h	113;"	d
+SS_SYS_connect	syscall.h	206;"	d
+SS_SYS_creat	syscall.h	115;"	d
+SS_SYS_debug	syscall.h	271;"	d
+SS_SYS_declare_shmem	syscall.h	314;"	d
+SS_SYS_dup	syscall.h	148;"	d
+SS_SYS_dup2	syscall.h	198;"	d
+SS_SYS_execv	syscall.h	118;"	d
+SS_SYS_execve	syscall.h	166;"	d
+SS_SYS_exit	syscall.h	108;"	d
+SS_SYS_exportfs	syscall.h	293;"	d
+SS_SYS_fchmod	syscall.h	233;"	d
+SS_SYS_fchown	syscall.h	232;"	d
+SS_SYS_fcntl	syscall.h	200;"	d
+SS_SYS_flock	syscall.h	240;"	d
+SS_SYS_fork	syscall.h	109;"	d
+SS_SYS_fstat	syscall.h	169;"	d
+SS_SYS_fstatfs	syscall.h	274;"	d
+SS_SYS_fsync	syscall.h	203;"	d
+SS_SYS_ftruncate	syscall.h	239;"	d
+SS_SYS_getdirentries	syscall.h	290;"	d
+SS_SYS_getdomainname	syscall.h	291;"	d
+SS_SYS_getdopt	syscall.h	199;"	d
+SS_SYS_getdtablesize	syscall.h	197;"	d
+SS_SYS_getfh	syscall.h	289;"	d
+SS_SYS_getgid	syscall.h	154;"	d
+SS_SYS_getgroups	syscall.h	186;"	d
+SS_SYS_gethostid	syscall.h	252;"	d
+SS_SYS_gethostname	syscall.h	195;"	d
+SS_SYS_getitimer	syscall.h	194;"	d
+SS_SYS_getmnt	syscall.h	307;"	d
+SS_SYS_getpagesize	syscall.h	171;"	d
+SS_SYS_getpeername	syscall.h	251;"	d
+SS_SYS_getpgrp	syscall.h	188;"	d
+SS_SYS_getpid	syscall.h	127;"	d
+SS_SYS_getpriority	syscall.h	208;"	d
+SS_SYS_getrlimit	syscall.h	254;"	d
+SS_SYS_getrusage	syscall.h	226;"	d
+SS_SYS_getsockname	syscall.h	260;"	d
+SS_SYS_getsockopt	syscall.h	227;"	d
+SS_SYS_getsysinfo	syscall.h	323;"	d
+SS_SYS_gettimeofday	syscall.h	225;"	d
+SS_SYS_getuid	syscall.h	131;"	d
+SS_SYS_hdwconf	syscall.h	280;"	d
+SS_SYS_ioctl	syscall.h	161;"	d
+SS_SYS_kill	syscall.h	144;"	d
+SS_SYS_killpg	syscall.h	256;"	d
+SS_SYS_link	syscall.h	116;"	d
+SS_SYS_listen	syscall.h	215;"	d
+SS_SYS_lockf	syscall.h	305;"	d
+SS_SYS_lseek	syscall.h	126;"	d
+SS_SYS_lstat	syscall.h	147;"	d
+SS_SYS_madvise	syscall.h	182;"	d
+SS_SYS_mem_lat	syscall.h	331;"	d
+SS_SYS_mincore	syscall.h	185;"	d
+SS_SYS_mkdir	syscall.h	245;"	d
+SS_SYS_mknod	syscall.h	121;"	d
+SS_SYS_mmap	syscall.h	178;"	d
+SS_SYS_mount	syscall.h	128;"	d
+SS_SYS_mprotect	syscall.h	181;"	d
+SS_SYS_mremap	syscall.h	172;"	d
+SS_SYS_msgctl	syscall.h	295;"	d
+SS_SYS_msgget	syscall.h	296;"	d
+SS_SYS_msgrcv	syscall.h	297;"	d
+SS_SYS_msgsnd	syscall.h	298;"	d
+SS_SYS_munmap	syscall.h	180;"	d
+SS_SYS_nfs_biod	syscall.h	286;"	d
+SS_SYS_nfs_getfh	syscall.h	288;"	d
+SS_SYS_nfs_svc	syscall.h	284;"	d
+SS_SYS_nfssvc	syscall.h	285;"	d
+SS_SYS_open	syscall.h	112;"	d
+SS_SYS_pipe	syscall.h	149;"	d
+SS_SYS_plock	syscall.h	304;"	d
+SS_SYS_profil	syscall.h	151;"	d
+SS_SYS_ptrace	syscall.h	133;"	d
+SS_SYS_quota	syscall.h	259;"	d
+SS_SYS_quotactl	syscall.h	277;"	d
+SS_SYS_read	syscall.h	110;"	d
+SS_SYS_read_counter	syscall.h	329;"	d
+SS_SYS_readlink	syscall.h	165;"	d
+SS_SYS_readv	syscall.h	229;"	d
+SS_SYS_reboot	syscall.h	162;"	d
+SS_SYS_recv	syscall.h	210;"	d
+SS_SYS_recvfrom	syscall.h	234;"	d
+SS_SYS_recvmsg	syscall.h	222;"	d
+SS_SYS_rename	syscall.h	237;"	d
+SS_SYS_reset_counter	syscall.h	328;"	d
+SS_SYS_rmdir	syscall.h	246;"	d
+SS_SYS_sbrk	syscall.h	176;"	d
+SS_SYS_select	syscall.h	201;"	d
+SS_SYS_semctl	syscall.h	299;"	d
+SS_SYS_semget	syscall.h	300;"	d
+SS_SYS_semop	syscall.h	301;"	d
+SS_SYS_send	syscall.h	209;"	d
+SS_SYS_sendmsg	syscall.h	223;"	d
+SS_SYS_sendto	syscall.h	242;"	d
+SS_SYS_setdomainname	syscall.h	292;"	d
+SS_SYS_setdopt	syscall.h	202;"	d
+SS_SYS_setgroups	syscall.h	187;"	d
+SS_SYS_sethostid	syscall.h	253;"	d
+SS_SYS_sethostname	syscall.h	196;"	d
+SS_SYS_setitimer	syscall.h	190;"	d
+SS_SYS_setpgrp	syscall.h	189;"	d
+SS_SYS_setpriority	syscall.h	204;"	d
+SS_SYS_setquota	syscall.h	258;"	d
+SS_SYS_setregid	syscall.h	236;"	d
+SS_SYS_setreuid	syscall.h	235;"	d
+SS_SYS_setrlimit	syscall.h	255;"	d
+SS_SYS_setsid	syscall.h	309;"	d
+SS_SYS_setsockopt	syscall.h	214;"	d
+SS_SYS_setsysinfo	syscall.h	324;"	d
+SS_SYS_settimeofday	syscall.h	231;"	d
+SS_SYS_shmsys	syscall.h	303;"	d
+SS_SYS_shutdown	syscall.h	243;"	d
+SS_SYS_sigblock	syscall.h	218;"	d
+SS_SYS_sigcleanup	syscall.h	248;"	d
+SS_SYS_sigpause	syscall.h	220;"	d
+SS_SYS_sigpending	syscall.h	308;"	d
+SS_SYS_sigreturn	syscall.h	211;"	d
+SS_SYS_sigsetmask	syscall.h	219;"	d
+SS_SYS_sigstack	syscall.h	221;"	d
+SS_SYS_sigvec	syscall.h	217;"	d
+SS_SYS_socket	syscall.h	205;"	d
+SS_SYS_socketpair	syscall.h	244;"	d
+SS_SYS_sstk	syscall.h	177;"	d
+SS_SYS_startcpu	syscall.h	321;"	d
+SS_SYS_stat	syscall.h	145;"	d
+SS_SYS_statfs	syscall.h	273;"	d
+SS_SYS_stopcpu	syscall.h	322;"	d
+SS_SYS_swapon	syscall.h	193;"	d
+SS_SYS_symlink	syscall.h	164;"	d
+SS_SYS_sync	syscall.h	143;"	d
+SS_SYS_syscall	syscall.h	107;"	d
+SS_SYS_sysmips	syscall.h	262;"	d
+SS_SYS_test_and_set	syscall.h	313;"	d
+SS_SYS_truncate	syscall.h	238;"	d
+SS_SYS_umask	syscall.h	167;"	d
+SS_SYS_umount	syscall.h	129;"	d
+SS_SYS_uname	syscall.h	302;"	d
+SS_SYS_unlink	syscall.h	117;"	d
+SS_SYS_unlock	syscall.h	315;"	d
+SS_SYS_unmount	syscall.h	275;"	d
+SS_SYS_ustat	syscall.h	306;"	d
+SS_SYS_utc_adjtime	syscall.h	318;"	d
+SS_SYS_utc_gettime	syscall.h	317;"	d
+SS_SYS_utimes	syscall.h	247;"	d
+SS_SYS_vadvise	syscall.h	179;"	d
+SS_SYS_vfork	syscall.h	173;"	d
+SS_SYS_vhangup	syscall.h	183;"	d
+SS_SYS_wait	syscall.h	192;"	d
+SS_SYS_wait3	syscall.h	191;"	d
+SS_SYS_waitpid	syscall.h	310;"	d
+SS_SYS_write	syscall.h	111;"	d
+SS_SYS_writev	syscall.h	230;"	d
+SS_TEXT_BASE	ss.h	74;"	d
+SS_TIME_TYPE	ss.h	/^typedef long long SS_TIME_TYPE;$/;"	t
+SS_TOTAL_REGS	ss.h	92;"	d
+SS_WORD_TYPE	ss.h	/^typedef long SS_WORD_TYPE;$/;"	t
+SWAP_HALF	_endian.h	53;"	d
+SWAP_WORD	_endian.h	59;"	d
+SWL_MACRO	I_hate_these_instructions.h	28;"	d
+SWL_MACRO	I_hate_these_instructions.h	56;"	d
+SWR_MACRO	I_hate_these_instructions.h	34;"	d
+SWR_MACRO	I_hate_these_instructions.h	62;"	d
+SYMCAT	misc.h	124;"	d
+SYSCALL_H	syscall.h	73;"	d
+ShmemBase	Thread.h	/^unsigned int ShmemBase;$/;"	m	class:Thread
+ShmemEnd	Thread.h	/^unsigned int ShmemEnd;$/;"	m	class:Thread
+TALIGN	ss.h	224;"	d
+TALIGN	ss.h	231;"	d
+TARG	ss.h	152;"	d
+TOTAL_ARCH_REGS	mt.h	3;"	d
+TRUE	misc.h	57;"	d
+Thread	Thread.h	/^Thread(Thread *master, SS_ADDR_TYPE ThreadIdPtr, unsigned int id) {$/;"	f	class:Thread
+Thread	Thread.h	/^Thread(int argc, char **argv, char **envp) {$/;"	f	class:Thread
+Thread	Thread.h	/^class Thread {$/;"	c
+UIMM	ss.h	150;"	d
+UNDER	ss.h	217;"	d
+UNDER	ss.h	227;"	d
+UNIMP	ss.h	127;"	d
+VER_MAJOR	version.h	48;"	d
+VER_MINOR	version.h	49;"	d
+VER_REVISION	version.h	50;"	d
+VER_UPDATE	version.h	52;"	d
+VOLATILE	ansidecl.h	105;"	d
+VOLATILE	ansidecl.h	129;"	d
+WL_BASE	ss.h	170;"	d
+WL_BASE	ss.h	185;"	d
+WL_PROT_MASK	ss.h	171;"	d
+WL_PROT_MASK	ss.h	186;"	d
+WL_PROT_MASK1	ss.h	172;"	d
+WL_PROT_MASK1	ss.h	187;"	d
+WL_PROT_MASK2	ss.h	173;"	d
+WL_PROT_MASK2	ss.h	188;"	d
+WL_SIZE	ss.h	169;"	d
+WL_SIZE	ss.h	184;"	d
+WORDALIGN	I_hate_these_instructions.h	9;"	d
+WP_TEXT	bfd.h	212;"	d
+WR_BASE	ss.h	176;"	d
+WR_BASE	ss.h	191;"	d
+WR_PROT_MASK	ss.h	177;"	d
+WR_PROT_MASK	ss.h	192;"	d
+WR_PROT_MASK1	ss.h	178;"	d
+WR_PROT_MASK1	ss.h	193;"	d
+WR_PROT_MASK2	ss.h	179;"	d
+WR_PROT_MASK2	ss.h	194;"	d
+WR_SIZE	ss.h	175;"	d
+WR_SIZE	ss.h	190;"	d
+Write	memory.h	/^enum mem_cmd { Read, Write };$/;"	e	enum:mem_cmd
+XCAT2	bfd.h	416;"	d
+_ANSIDECL_H	ansidecl.h	85;"	d
+__BFD_H_SEEN__	bfd.h	45;"	d
+__INT_TO_PTR	obstack.h	115;"	d
+__MEM_ACCESS	memory.h	44;"	d
+__OBSTACK_H__	obstack.h	104;"	d
+__PTR_TO_INT	obstack.h	111;"	d
+__SWAP_HALF	_endian.h	52;"	d
+__SWAP_WORD	_endian.h	55;"	d
+__UNCHK_MEM_ACCESS	memory.h	41;"	d
+__extension__	obstack.h	273;"	d
+__need_ptrdiff_t	obstack.h	128;"	d
+_bfd	bfd.h	/^struct _bfd $/;"	s
+_bfd_canonicalize_dynamic_reloc	bfd.h	/^  long  (*_bfd_canonicalize_dynamic_reloc)$/;"	m	struct:bfd_target
+_bfd_canonicalize_dynamic_symtab	bfd.h	/^  long  (*_bfd_canonicalize_dynamic_symtab)$/;"	m	struct:bfd_target
+_bfd_canonicalize_reloc	bfd.h	/^  long  (*_bfd_canonicalize_reloc) PARAMS ((bfd *, sec_ptr, arelent **,$/;"	m	struct:bfd_target
+_bfd_canonicalize_symtab	bfd.h	/^  long  (*_bfd_canonicalize_symtab) PARAMS ((bfd *,$/;"	m	struct:bfd_target
+_bfd_check_format	bfd.h	/^  const struct bfd_target *(*_bfd_check_format[bfd_type_end]) PARAMS ((bfd *));$/;"	m	struct:bfd_target	typeref:struct:bfd_target::_bfd_check_format
+_bfd_construct_extended_name_table	bfd.h	/^  bool  (*_bfd_construct_extended_name_table)$/;"	m	struct:bfd_target
+_bfd_copy_private_bfd_data	bfd.h	/^  bool	 (*_bfd_copy_private_bfd_data) PARAMS ((bfd *, bfd *));$/;"	m	struct:bfd_target
+_bfd_copy_private_section_data	bfd.h	/^  bool       (*_bfd_copy_private_section_data) PARAMS ((bfd *, sec_ptr,$/;"	m	struct:bfd_target
+_bfd_final_link	bfd.h	/^  bool (*_bfd_final_link) PARAMS ((bfd *, struct bfd_link_info *));$/;"	m	struct:bfd_target
+_bfd_find_nearest_line	bfd.h	/^  bool    (*_bfd_find_nearest_line) PARAMS ((bfd *abfd,$/;"	m	struct:bfd_target
+_bfd_free_cached_info	bfd.h	/^  bool (*_bfd_free_cached_info) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_bfd_get_dynamic_reloc_upper_bound	bfd.h	/^  long  (*_bfd_get_dynamic_reloc_upper_bound) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_bfd_get_dynamic_symtab_upper_bound	bfd.h	/^  long  (*_bfd_get_dynamic_symtab_upper_bound) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_bfd_get_relocated_section_contents	bfd.h	/^  bfd_byte * (*_bfd_get_relocated_section_contents) PARAMS ((bfd *,$/;"	m	struct:bfd_target
+_bfd_get_section_contents	bfd.h	/^  bool       (*_bfd_get_section_contents) PARAMS ((bfd *, sec_ptr, PTR, $/;"	m	struct:bfd_target
+_bfd_get_symbol_info	bfd.h	/^  void          (*_bfd_get_symbol_info) PARAMS ((bfd *,$/;"	m	struct:bfd_target
+_bfd_get_symtab_upper_bound	bfd.h	/^  long  (*_bfd_get_symtab_upper_bound) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_bfd_is_local_label	bfd.h	/^  bool	 (*_bfd_is_local_label) PARAMS ((bfd *, asymbol *));$/;"	m	struct:bfd_target
+_bfd_link_add_symbols	bfd.h	/^  bool (*_bfd_link_add_symbols) PARAMS ((bfd *, struct bfd_link_info *));$/;"	m	struct:bfd_target
+_bfd_link_hash_table_create	bfd.h	/^  struct bfd_link_hash_table *(*_bfd_link_hash_table_create) PARAMS ((bfd *));$/;"	m	struct:bfd_target	typeref:struct:bfd_target::_bfd_link_hash_table_create
+_bfd_link_info	bfd.h	/^typedef struct bfd_link_info _bfd_link_info;$/;"	t	typeref:struct:bfd_link_info
+_bfd_make_debug_symbol	bfd.h	/^ asymbol *  (*_bfd_make_debug_symbol) PARAMS (($/;"	m	struct:bfd_target
+_bfd_make_empty_symbol	bfd.h	/^                (*_bfd_make_empty_symbol) PARAMS ((bfd *));$/;"	m	struct:bfd_target	typeref:struct:bfd_target::_bfd_make_empty_symbol
+_bfd_print_symbol	bfd.h	/^  void          (*_bfd_print_symbol) PARAMS ((bfd *, PTR,$/;"	m	struct:bfd_target
+_bfd_relax_section	bfd.h	/^  bool    (*_bfd_relax_section) PARAMS ((bfd *, struct sec *,$/;"	m	struct:bfd_target
+_bfd_set_arch_mach	bfd.h	/^  bool    (*_bfd_set_arch_mach) PARAMS ((bfd *, enum bfd_architecture,$/;"	m	struct:bfd_target
+_bfd_set_format	bfd.h	/^  bool             (*_bfd_set_format[bfd_type_end]) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_bfd_set_section_contents	bfd.h	/^  bool       (*_bfd_set_section_contents) PARAMS ((bfd *, sec_ptr, PTR,$/;"	m	struct:bfd_target
+_bfd_sizeof_headers	bfd.h	/^  int        (*_bfd_sizeof_headers) PARAMS ((bfd *, bool));$/;"	m	struct:bfd_target
+_bfd_slurp_armap	bfd.h	/^  bool  (*_bfd_slurp_armap) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_bfd_slurp_extended_name_table	bfd.h	/^  bool  (*_bfd_slurp_extended_name_table) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_bfd_stat_arch_elt	bfd.h	/^  int      (*_bfd_stat_arch_elt) PARAMS ((bfd *, struct stat *));$/;"	m	struct:bfd_target
+_bfd_truncate_arname	bfd.h	/^  void     (*_bfd_truncate_arname) PARAMS ((bfd *, CONST char *, char *));$/;"	m	struct:bfd_target
+_bfd_update_armap_timestamp	bfd.h	/^  bool  (*_bfd_update_armap_timestamp) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_bfd_write_contents	bfd.h	/^  bool             (*_bfd_write_contents[bfd_type_end]) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_close_and_cleanup	bfd.h	/^  bool       (*_close_and_cleanup) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_cooked_size	bfd.h	/^   bfd_size_type _cooked_size;$/;"	m	struct:sec
+_core_file_failing_command	bfd.h	/^  char *   (*_core_file_failing_command) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_core_file_failing_signal	bfd.h	/^  int      (*_core_file_failing_signal) PARAMS ((bfd *));$/;"	m	struct:bfd_target
+_core_file_matches_executable_p	bfd.h	/^  bool  (*_core_file_matches_executable_p) PARAMS ((bfd *, bfd *));$/;"	m	struct:bfd_target
+_dummy_first_bfd_reloc_code_real	bfd.h	/^  _dummy_first_bfd_reloc_code_real,$/;"	e	enum:bfd_reloc_code_real
+_get_lineno	bfd.h	/^  alent *    (*_get_lineno) PARAMS ((bfd *, struct symbol_cache_entry *));$/;"	m	struct:bfd_target
+_get_reloc_upper_bound	bfd.h	/^  long  (*_get_reloc_upper_bound) PARAMS ((bfd *, sec_ptr));$/;"	m	struct:bfd_target
+_new_section_hook	bfd.h	/^  bool       (*_new_section_hook) PARAMS ((bfd *, sec_ptr));$/;"	m	struct:bfd_target
+_obstack_chunk	obstack.h	/^struct _obstack_chunk		\/* Lives at front of each chunk. *\/$/;"	s
+_raw_size	bfd.h	/^   bfd_size_type _raw_size;$/;"	m	struct:sec
+_symbol_info	bfd.h	/^typedef struct _symbol_info$/;"	s
+a	ss.h	/^  unsigned long a;		\/* simplescalar opcode *\/$/;"	m	struct:__anon7
+a_addr	debug.h	/^	unsigned int	a_addr;$/;"	m	struct:__anon5
+a_flags	debug.h	/^	unsigned int	a_flags;$/;"	m	struct:__anon5
+a_inst	debug.h	/^	SS_INST_TYPE	a_inst;$/;"	m	struct:__anon5
+a_lat	debug.h	/^	unsigned int	a_lat;$/;"	m	struct:__anon5
+a_next_pc	debug.h	/^	unsigned int	a_next_pc;$/;"	m	struct:__anon5
+a_num_rdst	debug.h	/^	unsigned int	a_num_rdst;$/;"	m	struct:__anon5
+a_num_rsrc	debug.h	/^	unsigned int	a_num_rsrc;$/;"	m	struct:__anon5
+a_num_rsrcA	debug.h	/^	unsigned int	a_num_rsrcA;$/;"	m	struct:__anon5
+a_pc	debug.h	/^	unsigned int	a_pc;$/;"	m	struct:__anon5
+a_rdst	debug.h	/^	db_reg_t	a_rdst[D_MAX_RDST];$/;"	m	struct:__anon5
+a_rsrc	debug.h	/^	db_reg_t	a_rsrc[D_MAX_RSRC];$/;"	m	struct:__anon5
+a_rsrcA	debug.h	/^	db_reg_t	a_rsrcA[D_MAX_RSRC];$/;"	m	struct:__anon5
+addend	bfd.h	/^  bfd_vma addend;$/;"	m	struct:reloc_cache_entry
+address	bfd.h	/^  bfd_size_type address;$/;"	m	struct:reloc_cache_entry
+adr	ecoff.h	/^  unsigned int adr;$/;"	m	struct:ecoff_fdr
+adr	ecoff.h	/^  unsigned int adr;$/;"	m	struct:ecoff_pdr
+alent	bfd.h	/^} alent;$/;"	t	typeref:struct:lineno_cache_entry
+align_power	bfd.h	278;"	d
+align_power_min	bfd.h	/^  unsigned int align_power_min;$/;"	m	struct:bfd_target
+alignment_mask	obstack.h	/^  int   alignment_mask;		\/* Mask of alignment for each object. *\/$/;"	m	struct:obstack
+alignment_power	bfd.h	/^   unsigned int alignment_power;$/;"	m	struct:sec
+alloc_failed	obstack.h	/^  unsigned alloc_failed:1;	\/* chunk alloc func returned 0 *\/$/;"	m	struct:obstack
+any	bfd.h	/^      PTR any;$/;"	m	union:_bfd::__anon2
+aout_ar_data	bfd.h	/^      struct artdata *aout_ar_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::artdata
+aout_data	bfd.h	/^      struct aout_data_struct *aout_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::aout_data_struct
+ar_max_namelen	bfd.h	/^  unsigned short ar_max_namelen;$/;"	m	struct:bfd_target
+ar_pad_char	bfd.h	/^  char ar_pad_char;            $/;"	m	struct:bfd_target
+arch	bfd.h	/^  enum bfd_architecture arch;$/;"	m	struct:bfd_arch_info	typeref:enum:bfd_arch_info::bfd_architecture
+arch_PC	Thread.h	/^unsigned int arch_PC;$/;"	m	class:Thread
+arch_info	bfd.h	/^    struct bfd_arch_info *arch_info;$/;"	m	struct:_bfd	typeref:struct:_bfd::bfd_arch_info
+arch_name	bfd.h	/^  char *arch_name;$/;"	m	struct:bfd_arch_info
+archive_head	bfd.h	/^    struct _bfd *archive_head;    \/* The first BFD in the archive.  *\/$/;"	m	struct:_bfd	typeref:struct:_bfd::_bfd
+archive_pass	bfd.h	/^    int archive_pass;$/;"	m	struct:_bfd
+arelent	bfd.h	/^} arelent;$/;"	t	typeref:struct:reloc_cache_entry
+arelent_chain	bfd.h	/^} arelent_chain;$/;"	t	typeref:struct:relent_chain
+arelt_data	bfd.h	/^    PTR arelt_data;              $/;"	m	struct:_bfd
+asection	bfd.h	/^} asection ;$/;"	t	typeref:struct:sec
+asym	ecoff.h	/^  ecoff_SYMR asym;$/;"	m	struct:ecoff_EXTR
+asymbol	bfd.h	/^} asymbol;$/;"	t	typeref:struct:symbol_cache_entry
+b	ss.h	/^  unsigned long b;		\/* simplescalar immediate fields *\/$/;"	m	struct:__anon7
+backend_data	bfd.h	/^ PTR backend_data;$/;"	m	struct:bfd_target
+bfd	bfd.h	/^typedef struct _bfd bfd;$/;"	t	typeref:struct:_bfd
+bfd_abs_section_ptr	bfd.h	915;"	d
+bfd_applicable_file_flags	bfd.h	450;"	d
+bfd_applicable_section_flags	bfd.h	451;"	d
+bfd_arch_a29k	bfd.h	/^  bfd_arch_a29k,       \/* AMD 29000 *\/$/;"	e	enum:bfd_architecture
+bfd_arch_alliant	bfd.h	/^  bfd_arch_alliant,    \/* Alliant *\/$/;"	e	enum:bfd_architecture
+bfd_arch_alpha	bfd.h	/^  bfd_arch_alpha,      \/* Dec Alpha *\/$/;"	e	enum:bfd_architecture
+bfd_arch_arm	bfd.h	/^  bfd_arch_arm,        \/* Advanced Risc Machines ARM *\/$/;"	e	enum:bfd_architecture
+bfd_arch_convex	bfd.h	/^  bfd_arch_convex,     \/* Convex *\/$/;"	e	enum:bfd_architecture
+bfd_arch_h8300	bfd.h	/^  bfd_arch_h8300,      \/* Hitachi H8\/300 *\/$/;"	e	enum:bfd_architecture
+bfd_arch_h8500	bfd.h	/^  bfd_arch_h8500,      \/* Hitachi H8\/500 *\/$/;"	e	enum:bfd_architecture
+bfd_arch_hppa	bfd.h	/^  bfd_arch_hppa,       \/* HP PA RISC *\/$/;"	e	enum:bfd_architecture
+bfd_arch_i386	bfd.h	/^  bfd_arch_i386,       \/* Intel 386 *\/$/;"	e	enum:bfd_architecture
+bfd_arch_i860	bfd.h	/^  bfd_arch_i860,       \/* Intel 860 *\/$/;"	e	enum:bfd_architecture
+bfd_arch_i960	bfd.h	/^  bfd_arch_i960,       \/* Intel 960 *\/$/;"	e	enum:bfd_architecture
+bfd_arch_info	bfd.h	/^typedef struct bfd_arch_info $/;"	s
+bfd_arch_info_type	bfd.h	/^} bfd_arch_info_type;$/;"	t	typeref:struct:bfd_arch_info
+bfd_arch_last	bfd.h	/^  bfd_arch_last$/;"	e	enum:bfd_architecture
+bfd_arch_m68k	bfd.h	/^  bfd_arch_m68k,       \/* Motorola 68xxx *\/$/;"	e	enum:bfd_architecture
+bfd_arch_m88k	bfd.h	/^  bfd_arch_m88k,       \/* Motorola 88xxx *\/$/;"	e	enum:bfd_architecture
+bfd_arch_mips	bfd.h	/^  bfd_arch_mips,       \/* MIPS Rxxxx *\/$/;"	e	enum:bfd_architecture
+bfd_arch_ns32k	bfd.h	/^  bfd_arch_ns32k,      \/* National Semiconductors ns32000 *\/$/;"	e	enum:bfd_architecture
+bfd_arch_obscure	bfd.h	/^  bfd_arch_obscure,    \/* Arch known, not one of these *\/$/;"	e	enum:bfd_architecture
+bfd_arch_powerpc	bfd.h	/^  bfd_arch_powerpc,    \/* PowerPC *\/$/;"	e	enum:bfd_architecture
+bfd_arch_pyramid	bfd.h	/^  bfd_arch_pyramid,    \/* Pyramid Technology *\/$/;"	e	enum:bfd_architecture
+bfd_arch_romp	bfd.h	/^  bfd_arch_romp,       \/* IBM ROMP PC\/RT *\/$/;"	e	enum:bfd_architecture
+bfd_arch_rs6000	bfd.h	/^  bfd_arch_rs6000,     \/* IBM RS\/6000 *\/$/;"	e	enum:bfd_architecture
+bfd_arch_sh	bfd.h	/^  bfd_arch_sh,         \/* Hitachi SH *\/$/;"	e	enum:bfd_architecture
+bfd_arch_sparc	bfd.h	/^  bfd_arch_sparc,      \/* SPARC *\/$/;"	e	enum:bfd_architecture
+bfd_arch_ss	bfd.h	/^  bfd_arch_ss,         \/* SimpleScalar *\/$/;"	e	enum:bfd_architecture
+bfd_arch_tahoe	bfd.h	/^  bfd_arch_tahoe,      \/* CCI\/Harris Tahoe *\/$/;"	e	enum:bfd_architecture
+bfd_arch_unknown	bfd.h	/^  bfd_arch_unknown,    \/* File arch not known *\/$/;"	e	enum:bfd_architecture
+bfd_arch_vax	bfd.h	/^  bfd_arch_vax,        \/* DEC Vax *\/   $/;"	e	enum:bfd_architecture
+bfd_arch_we32k	bfd.h	/^  bfd_arch_we32k,      \/* AT&T WE32xxx *\/$/;"	e	enum:bfd_architecture
+bfd_arch_z8k	bfd.h	/^  bfd_arch_z8k,        \/* Zilog Z8000 *\/$/;"	e	enum:bfd_architecture
+bfd_architecture	bfd.h	/^enum bfd_architecture $/;"	g
+bfd_archive	bfd.h	/^	      bfd_archive,	\/* object archive file *\/$/;"	e	enum:bfd_format
+bfd_asymbol_base	bfd.h	242;"	d
+bfd_asymbol_bfd	bfd.h	246;"	d
+bfd_asymbol_flavour	bfd.h	247;"	d
+bfd_asymbol_name	bfd.h	244;"	d
+bfd_asymbol_value	bfd.h	243;"	d
+bfd_byte	bfd.h	/^typedef unsigned char bfd_byte;$/;"	t
+bfd_canonicalize_dynamic_reloc	bfd.h	1933;"	d
+bfd_canonicalize_dynamic_symtab	bfd.h	1927;"	d
+bfd_canonicalize_symtab	bfd.h	1637;"	d
+bfd_com_section_ptr	bfd.h	923;"	d
+bfd_copy_private_bfd_data	bfd.h	1876;"	d
+bfd_copy_private_section_data	bfd.h	978;"	d
+bfd_core	bfd.h	/^	      bfd_core,		\/* core dump *\/$/;"	e	enum:bfd_format
+bfd_count_sections	bfd.h	461;"	d
+bfd_debug_info_accumulate	bfd.h	1892;"	d
+bfd_debug_info_end	bfd.h	1889;"	d
+bfd_debug_info_start	bfd.h	1886;"	d
+bfd_direction	bfd.h	/^    enum bfd_direction {no_direction = 0,$/;"	g	struct:_bfd
+bfd_error	bfd.h	/^typedef enum bfd_error$/;"	g
+bfd_error_bad_value	bfd.h	/^  bfd_error_bad_value,$/;"	e	enum:bfd_error
+bfd_error_file_ambiguously_recognized	bfd.h	/^  bfd_error_file_ambiguously_recognized,$/;"	e	enum:bfd_error
+bfd_error_file_not_recognized	bfd.h	/^  bfd_error_file_not_recognized,$/;"	e	enum:bfd_error
+bfd_error_file_truncated	bfd.h	/^  bfd_error_file_truncated,$/;"	e	enum:bfd_error
+bfd_error_invalid_error_code	bfd.h	/^  bfd_error_invalid_error_code$/;"	e	enum:bfd_error
+bfd_error_invalid_operation	bfd.h	/^  bfd_error_invalid_operation,$/;"	e	enum:bfd_error
+bfd_error_invalid_target	bfd.h	/^  bfd_error_invalid_target,$/;"	e	enum:bfd_error
+bfd_error_malformed_archive	bfd.h	/^  bfd_error_malformed_archive,$/;"	e	enum:bfd_error
+bfd_error_no_contents	bfd.h	/^  bfd_error_no_contents,$/;"	e	enum:bfd_error
+bfd_error_no_debug_section	bfd.h	/^  bfd_error_no_debug_section,$/;"	e	enum:bfd_error
+bfd_error_no_error	bfd.h	/^  bfd_error_no_error = 0,$/;"	e	enum:bfd_error
+bfd_error_no_memory	bfd.h	/^  bfd_error_no_memory,$/;"	e	enum:bfd_error
+bfd_error_no_more_archived_files	bfd.h	/^  bfd_error_no_more_archived_files,$/;"	e	enum:bfd_error
+bfd_error_no_symbols	bfd.h	/^  bfd_error_no_symbols,$/;"	e	enum:bfd_error
+bfd_error_nonrepresentable_section	bfd.h	/^  bfd_error_nonrepresentable_section,$/;"	e	enum:bfd_error
+bfd_error_system_call	bfd.h	/^  bfd_error_system_call,$/;"	e	enum:bfd_error
+bfd_error_type	bfd.h	/^} bfd_error_type;$/;"	t	typeref:enum:bfd_error
+bfd_error_wrong_format	bfd.h	/^  bfd_error_wrong_format,$/;"	e	enum:bfd_error
+bfd_final_link	bfd.h	1918;"	d
+bfd_find_nearest_line	bfd.h	1882;"	d
+bfd_flavour	bfd.h	/^enum bfd_flavour {$/;"	g
+bfd_format	bfd.h	/^         bfd_format;$/;"	t	typeref:enum:bfd_format
+bfd_format	bfd.h	/^typedef enum bfd_format {$/;"	g
+bfd_free_cached_info	bfd.h	1921;"	d
+bfd_get_16	bfd.h	611;"	d
+bfd_get_32	bfd.h	620;"	d
+bfd_get_64	bfd.h	629;"	d
+bfd_get_8	bfd.h	602;"	d
+bfd_get_cacheable	bfd.h	445;"	d
+bfd_get_dynamic_reloc_upper_bound	bfd.h	1930;"	d
+bfd_get_dynamic_symtab_upper_bound	bfd.h	1924;"	d
+bfd_get_file_flags	bfd.h	449;"	d
+bfd_get_filename	bfd.h	444;"	d
+bfd_get_flavour	bfd.h	448;"	d
+bfd_get_format	bfd.h	446;"	d
+bfd_get_output_section	bfd.h	240;"	d
+bfd_get_outsymbols	bfd.h	460;"	d
+bfd_get_relocated_section_contents	bfd.h	1905;"	d
+bfd_get_section	bfd.h	239;"	d
+bfd_get_section_alignment	bfd.h	285;"	d
+bfd_get_section_flags	bfd.h	290;"	d
+bfd_get_section_name	bfd.h	283;"	d
+bfd_get_section_size_after_reloc	bfd.h	935;"	d
+bfd_get_section_size_before_reloc	bfd.h	933;"	d
+bfd_get_section_userdata	bfd.h	291;"	d
+bfd_get_section_vma	bfd.h	284;"	d
+bfd_get_signed_16	bfd.h	613;"	d
+bfd_get_signed_32	bfd.h	622;"	d
+bfd_get_signed_64	bfd.h	631;"	d
+bfd_get_signed_8	bfd.h	604;"	d
+bfd_get_start_address	bfd.h	458;"	d
+bfd_get_symbol_info	bfd.h	2113;"	d
+bfd_get_symbol_leading_char	bfd.h	463;"	d
+bfd_get_symcount	bfd.h	459;"	d
+bfd_get_symtab_upper_bound	bfd.h	1630;"	d
+bfd_get_target	bfd.h	447;"	d
+bfd_getx16	bfd.h	/^  bfd_vma      (*bfd_getx16) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_getx32	bfd.h	/^  bfd_vma      (*bfd_getx32) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_getx64	bfd.h	/^  bfd_vma      (*bfd_getx64) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_getx_signed_16	bfd.h	/^  bfd_signed_vma (*bfd_getx_signed_16) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_getx_signed_32	bfd.h	/^  bfd_signed_vma (*bfd_getx_signed_32) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_getx_signed_64	bfd.h	/^  bfd_signed_vma (*bfd_getx_signed_64) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_get_16	bfd.h	650;"	d
+bfd_h_get_32	bfd.h	659;"	d
+bfd_h_get_64	bfd.h	668;"	d
+bfd_h_get_8	bfd.h	641;"	d
+bfd_h_get_signed_16	bfd.h	652;"	d
+bfd_h_get_signed_32	bfd.h	661;"	d
+bfd_h_get_signed_64	bfd.h	670;"	d
+bfd_h_get_signed_8	bfd.h	643;"	d
+bfd_h_getx16	bfd.h	/^  bfd_vma      (*bfd_h_getx16) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_getx32	bfd.h	/^  bfd_vma      (*bfd_h_getx32) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_getx64	bfd.h	/^  bfd_vma      (*bfd_h_getx64) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_getx_signed_16	bfd.h	/^  bfd_signed_vma (*bfd_h_getx_signed_16) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_getx_signed_32	bfd.h	/^  bfd_signed_vma (*bfd_h_getx_signed_32) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_getx_signed_64	bfd.h	/^  bfd_signed_vma (*bfd_h_getx_signed_64) PARAMS ((const bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_put_16	bfd.h	646;"	d
+bfd_h_put_32	bfd.h	655;"	d
+bfd_h_put_64	bfd.h	664;"	d
+bfd_h_put_8	bfd.h	637;"	d
+bfd_h_put_signed_16	bfd.h	648;"	d
+bfd_h_put_signed_32	bfd.h	657;"	d
+bfd_h_put_signed_64	bfd.h	666;"	d
+bfd_h_put_signed_8	bfd.h	639;"	d
+bfd_h_putx16	bfd.h	/^  void         (*bfd_h_putx16) PARAMS ((bfd_vma, bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_putx32	bfd.h	/^  void         (*bfd_h_putx32) PARAMS ((bfd_vma, bfd_byte *));$/;"	m	struct:bfd_target
+bfd_h_putx64	bfd.h	/^  void         (*bfd_h_putx64) PARAMS ((bfd_vma, bfd_byte *));$/;"	m	struct:bfd_target
+bfd_has_map	bfd.h	453;"	d
+bfd_hash_entry	bfd.h	/^struct bfd_hash_entry$/;"	s
+bfd_hash_table	bfd.h	/^struct bfd_hash_table$/;"	s
+bfd_ind_section_ptr	bfd.h	926;"	d
+bfd_is_abs_section	bfd.h	916;"	d
+bfd_is_com_section	bfd.h	293;"	d
+bfd_is_ind_section	bfd.h	927;"	d
+bfd_is_local_label	bfd.h	1635;"	d
+bfd_is_und_section	bfd.h	920;"	d
+bfd_link_add_symbols	bfd.h	1915;"	d
+bfd_link_hash_table_create	bfd.h	1912;"	d
+bfd_mach_h8300	bfd.h	1017;"	d
+bfd_mach_h8300h	bfd.h	1018;"	d
+bfd_mach_i960_ca	bfd.h	1001;"	d
+bfd_mach_i960_core	bfd.h	996;"	d
+bfd_mach_i960_ka_sa	bfd.h	997;"	d
+bfd_mach_i960_kb_sb	bfd.h	998;"	d
+bfd_mach_i960_mc	bfd.h	999;"	d
+bfd_mach_i960_xa	bfd.h	1000;"	d
+bfd_mach_z8001	bfd.h	1023;"	d
+bfd_mach_z8002	bfd.h	1024;"	d
+bfd_make_debug_symbol	bfd.h	1648;"	d
+bfd_make_empty_symbol	bfd.h	1646;"	d
+bfd_my_archive	bfd.h	452;"	d
+bfd_object	bfd.h	/^	      bfd_object,	\/* linker\/assember\/compiler output *\/$/;"	e	enum:bfd_format
+bfd_print_symbol	bfd.h	/^typedef enum bfd_print_symbol$/;"	g
+bfd_print_symbol	bfd.h	2109;"	d
+bfd_print_symbol_all	bfd.h	/^  bfd_print_symbol_all$/;"	e	enum:bfd_print_symbol
+bfd_print_symbol_more	bfd.h	/^  bfd_print_symbol_more,$/;"	e	enum:bfd_print_symbol
+bfd_print_symbol_name	bfd.h	/^  bfd_print_symbol_name,$/;"	e	enum:bfd_print_symbol
+bfd_print_symbol_type	bfd.h	/^} bfd_print_symbol_type;$/;"	t	typeref:enum:bfd_print_symbol
+bfd_put_16	bfd.h	607;"	d
+bfd_put_32	bfd.h	616;"	d
+bfd_put_64	bfd.h	625;"	d
+bfd_put_8	bfd.h	598;"	d
+bfd_put_signed_16	bfd.h	609;"	d
+bfd_put_signed_32	bfd.h	618;"	d
+bfd_put_signed_64	bfd.h	627;"	d
+bfd_put_signed_8	bfd.h	600;"	d
+bfd_putx16	bfd.h	/^  void         (*bfd_putx16) PARAMS ((bfd_vma, bfd_byte *));$/;"	m	struct:bfd_target
+bfd_putx32	bfd.h	/^  void         (*bfd_putx32) PARAMS ((bfd_vma, bfd_byte *));$/;"	m	struct:bfd_target
+bfd_putx64	bfd.h	/^  void         (*bfd_putx64) PARAMS ((bfd_vma, bfd_byte *));$/;"	m	struct:bfd_target
+bfd_relax_section	bfd.h	1909;"	d
+bfd_reloc_code_real	bfd.h	/^enum bfd_reloc_code_real {$/;"	g
+bfd_reloc_code_real_type	bfd.h	/^typedef enum bfd_reloc_code_real bfd_reloc_code_real_type;$/;"	t	typeref:enum:bfd_reloc_code_real
+bfd_reloc_continue	bfd.h	/^  bfd_reloc_continue,$/;"	e	enum:bfd_reloc_status
+bfd_reloc_dangerous	bfd.h	/^  bfd_reloc_dangerous$/;"	e	enum:bfd_reloc_status
+bfd_reloc_notsupported	bfd.h	/^  bfd_reloc_notsupported,$/;"	e	enum:bfd_reloc_status
+bfd_reloc_ok	bfd.h	/^  bfd_reloc_ok,$/;"	e	enum:bfd_reloc_status
+bfd_reloc_other	bfd.h	/^  bfd_reloc_other,$/;"	e	enum:bfd_reloc_status
+bfd_reloc_outofrange	bfd.h	/^  bfd_reloc_outofrange,$/;"	e	enum:bfd_reloc_status
+bfd_reloc_overflow	bfd.h	/^  bfd_reloc_overflow,$/;"	e	enum:bfd_reloc_status
+bfd_reloc_status	bfd.h	/^typedef enum bfd_reloc_status$/;"	g
+bfd_reloc_status_type	bfd.h	/^ bfd_reloc_status_type;$/;"	t	typeref:enum:bfd_reloc_status
+bfd_reloc_undefined	bfd.h	/^  bfd_reloc_undefined,$/;"	e	enum:bfd_reloc_status
+bfd_section_alignment	bfd.h	289;"	d
+bfd_section_name	bfd.h	286;"	d
+bfd_section_size	bfd.h	287;"	d
+bfd_section_vma	bfd.h	288;"	d
+bfd_set_arch_mach	bfd.h	1902;"	d
+bfd_set_cacheable	bfd.h	465;"	d
+bfd_set_section	bfd.h	241;"	d
+bfd_set_section_alignment	bfd.h	296;"	d
+bfd_set_section_userdata	bfd.h	297;"	d
+bfd_set_section_vma	bfd.h	295;"	d
+bfd_signed_vma	bfd.h	/^typedef BFD_HOST_64_BIT bfd_signed_vma;$/;"	t
+bfd_signed_vma	bfd.h	/^typedef long bfd_signed_vma;$/;"	t
+bfd_size_type	bfd.h	/^typedef unsigned BFD_HOST_64_BIT bfd_size_type;$/;"	t
+bfd_size_type	bfd.h	/^typedef unsigned long bfd_size_type;$/;"	t
+bfd_sizeof_headers	bfd.h	1879;"	d
+bfd_stat_arch_elt	bfd.h	1896;"	d
+bfd_target	bfd.h	/^typedef struct bfd_target$/;"	s
+bfd_target	bfd.h	/^} bfd_target;$/;"	t	typeref:struct:bfd_target
+bfd_target_aout_flavour	bfd.h	/^  bfd_target_aout_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_coff_flavour	bfd.h	/^  bfd_target_coff_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_ecoff_flavour	bfd.h	/^  bfd_target_ecoff_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_elf_flavour	bfd.h	/^  bfd_target_elf_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_ieee_flavour	bfd.h	/^  bfd_target_ieee_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_nlm_flavour	bfd.h	/^  bfd_target_nlm_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_oasys_flavour	bfd.h	/^  bfd_target_oasys_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_os9k_flavour	bfd.h	/^  bfd_target_os9k_flavour};$/;"	e	enum:bfd_flavour
+bfd_target_som_flavour	bfd.h	/^  bfd_target_som_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_srec_flavour	bfd.h	/^  bfd_target_srec_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_tekhex_flavour	bfd.h	/^  bfd_target_tekhex_flavour,$/;"	e	enum:bfd_flavour
+bfd_target_unknown_flavour	bfd.h	/^  bfd_target_unknown_flavour,$/;"	e	enum:bfd_flavour
+bfd_type_end	bfd.h	/^	      bfd_type_end}	\/* marks the end; don't use it! *\/$/;"	e	enum:bfd_format
+bfd_und_section_ptr	bfd.h	919;"	d
+bfd_unknown	bfd.h	/^	      bfd_unknown = 0,	\/* file format is unknown *\/$/;"	e	enum:bfd_format
+bfd_update_armap_timestamp	bfd.h	1899;"	d
+bfd_usrdata	bfd.h	456;"	d
+bfd_valid_reloc_types	bfd.h	455;"	d
+bfd_vma	bfd.h	/^typedef unsigned BFD_HOST_64_BIT bfd_vma;$/;"	t
+bfd_vma	bfd.h	/^typedef unsigned long bfd_vma;$/;"	t
+bitpos	bfd.h	/^  unsigned int bitpos;$/;"	m	struct:reloc_howto_struct
+bits_per_address	bfd.h	/^  int bits_per_address;$/;"	m	struct:bfd_arch_info
+bits_per_byte	bfd.h	/^  int bits_per_byte;$/;"	m	struct:bfd_arch_info
+bits_per_word	bfd.h	/^  int bits_per_word;$/;"	m	struct:bfd_arch_info
+bitsize	bfd.h	/^  unsigned int bitsize;$/;"	m	struct:reloc_howto_struct
+blocked	Thread.h	/^bool blocked;$/;"	m	class:Thread
+both_direction	bfd.h	/^                        both_direction = 3} direction;$/;"	e	enum:_bfd::bfd_direction
+bout_data	bfd.h	/^      struct bout_data_struct *bout_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::bout_data_struct
+bsize	ecoff.h	/^  int bsize;$/;"	m	struct:ecoff_aouthdr
+bss_start	ecoff.h	/^  int bss_start;$/;"	m	struct:ecoff_aouthdr
+byteorder_big_p	bfd.h	/^  bool byteorder_big_p;$/;"	m	struct:bfd_target
+bytes	debug.h	/^	unsigned char bytes[8];$/;"	m	union:__anon4
+cacheable	bfd.h	/^    bool cacheable;$/;"	m	struct:_bfd
+carsym	bfd.h	/^typedef struct carsym {$/;"	s
+carsym	bfd.h	/^} carsym;			\/* to make these you call a carsymogen *\/$/;"	t	typeref:struct:carsym
+caux	ecoff.h	/^  int caux;$/;"	m	struct:ecoff_fdr
+cbAuxOffset	ecoff.h	/^  int cbAuxOffset;$/;"	m	struct:ecoff_symhdr_t
+cbDnOffset	ecoff.h	/^  int cbDnOffset;$/;"	m	struct:ecoff_symhdr_t
+cbExtOffset	ecoff.h	/^  int cbExtOffset;$/;"	m	struct:ecoff_symhdr_t
+cbFdOffset	ecoff.h	/^  int cbFdOffset;$/;"	m	struct:ecoff_symhdr_t
+cbLine	ecoff.h	/^  int cbLine;$/;"	m	struct:ecoff_fdr
+cbLine	ecoff.h	/^  int cbLine;$/;"	m	struct:ecoff_symhdr_t
+cbLineOffset	ecoff.h	/^  int cbLineOffset;$/;"	m	struct:ecoff_fdr
+cbLineOffset	ecoff.h	/^  int cbLineOffset;$/;"	m	struct:ecoff_pdr
+cbLineOffset	ecoff.h	/^  int cbLineOffset;$/;"	m	struct:ecoff_symhdr_t
+cbOptOffset	ecoff.h	/^  int cbOptOffset;$/;"	m	struct:ecoff_symhdr_t
+cbPdOffset	ecoff.h	/^  int cbPdOffset;$/;"	m	struct:ecoff_symhdr_t
+cbRfdOffset	ecoff.h	/^  int cbRfdOffset;$/;"	m	struct:ecoff_symhdr_t
+cbSs	ecoff.h	/^  int cbSs;$/;"	m	struct:ecoff_fdr
+cbSsExtOffset	ecoff.h	/^  int cbSsExtOffset;$/;"	m	struct:ecoff_symhdr_t
+cbSsOffset	ecoff.h	/^  int cbSsOffset;$/;"	m	struct:ecoff_symhdr_t
+cbSymOffset	ecoff.h	/^  int cbSymOffset;$/;"	m	struct:ecoff_symhdr_t
+check_next	Thread.h	/^debug_index check_next(debug_index i, unsigned int pc) {$/;"	f	class:Thread
+check_next	debug.h	/^	debug_index check_next(debug_index i, unsigned int pc) {$/;"	f	class:debug_buffer
+chunk	obstack.h	/^  struct _obstack_chunk* chunk;	\/* address of current struct obstack_chunk *\/$/;"	m	struct:obstack	typeref:struct:obstack::_obstack_chunk
+chunk_limit	obstack.h	/^  char	*chunk_limit;		\/* address of char after current chunk *\/$/;"	m	struct:obstack
+chunk_size	obstack.h	/^  long	chunk_size;		\/* preferred size to allocate chunks in *\/$/;"	m	struct:obstack
+chunkfun	obstack.h	/^  struct _obstack_chunk *(*chunkfun) (); \/* User's fcn to allocate a chunk.  *\/$/;"	m	struct:obstack	typeref:struct:obstack::chunkfun
+cisco_core_data	bfd.h	/^      struct cisco_core_struct *cisco_core_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::cisco_core_struct
+cleanup_get_instr	Thread.h	/^db_t *cleanup_get_instr() {$/;"	f	class:Thread
+cleanup_init	Thread.h	/^void cleanup_init() {$/;"	f	class:Thread
+cline	ecoff.h	/^  int cline;$/;"	m	struct:ecoff_fdr
+coff_obj_data	bfd.h	/^      struct coff_tdata *coff_obj_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::coff_tdata
+compatible	bfd.h	/^  CONST struct bfd_arch_info * (*compatible)$/;"	m	struct:bfd_arch_info	typeref:struct:bfd_arch_info::compatible
+complain_on_overflow	bfd.h	/^  enum complain_overflow complain_on_overflow;$/;"	m	struct:reloc_howto_struct	typeref:enum:reloc_howto_struct::complain_overflow
+complain_overflow	bfd.h	/^enum complain_overflow$/;"	g
+complain_overflow_bitfield	bfd.h	/^  complain_overflow_bitfield,$/;"	e	enum:complain_overflow
+complain_overflow_dont	bfd.h	/^  complain_overflow_dont,$/;"	e	enum:complain_overflow
+complain_overflow_signed	bfd.h	/^  complain_overflow_signed,$/;"	e	enum:complain_overflow
+complain_overflow_unsigned	bfd.h	/^  complain_overflow_unsigned$/;"	e	enum:complain_overflow
+const	ansidecl.h	127;"	d
+constructor_chain	bfd.h	/^   struct relent_chain *constructor_chain;$/;"	m	struct:sec	typeref:struct:sec::relent_chain
+contents	bfd.h	/^   unsigned char *contents;$/;"	m	struct:sec
+contents	obstack.h	/^  char	contents[4];		\/* objects begin here *\/$/;"	m	struct:_obstack_chunk
+copt	ecoff.h	/^  int copt;$/;"	m	struct:ecoff_fdr
+copy	Thread.h	/^void copy(SS_ADDR_TYPE& ld_text_base,$/;"	f	class:Thread
+cpd	ecoff.h	/^  unsigned short cpd;$/;"	m	struct:ecoff_fdr
+cprmask	ecoff.h	/^  int cprmask[4];$/;"	m	struct:ecoff_aouthdr
+crfd	ecoff.h	/^  int crfd;$/;"	m	struct:ecoff_fdr
+crfd	ecoff.h	/^  int crfd;$/;"	m	struct:ecoff_symhdr_t
+csym	ecoff.h	/^  int csym;$/;"	m	struct:ecoff_fdr
+d	regs.h	/^    SS_DOUBLE_TYPE d[SS_NUM_REGS\/2];$/;"	m	union:regs_FP
+data_start	ecoff.h	/^  int data_start;$/;"	m	struct:ecoff_aouthdr
+db	debug.h	/^	db_t *db;$/;"	m	class:debug_buffer
+db_reg_t	debug.h	/^} db_reg_t;$/;"	t	typeref:struct:__anon3
+db_t	debug.h	/^} db_t;$/;"	t	typeref:struct:__anon5
+debug	misc.h	174;"	d
+debug	misc.h	183;"	d
+debug_buffer	debug.h	/^	debug_buffer(unsigned int window_size) {$/;"	f	class:debug_buffer
+debug_buffer	debug.h	/^class debug_buffer {$/;"	c
+debug_index	debug.h	/^typedef unsigned int	debug_index;$/;"	t
+decode	Thread.h	/^void decode() {$/;"	f	class:Thread
+direction	bfd.h	/^                        both_direction = 3} direction;$/;"	m	struct:_bfd	typeref:enum:_bfd::bfd_direction
+disassemble	bfd.h	/^  unsigned int (*disassemble) PARAMS ((bfd_vma addr, CONST char *data,$/;"	m	struct:bfd_arch_info
+dsize	ecoff.h	/^  int dsize;$/;"	m	struct:ecoff_aouthdr
+dst_mask	bfd.h	/^  bfd_vma dst_mask;$/;"	m	struct:reloc_howto_struct
+ecoff_EXTR	ecoff.h	/^typedef struct ecoff_EXTR {$/;"	s
+ecoff_EXTR	ecoff.h	/^} ecoff_EXTR;$/;"	t	typeref:struct:ecoff_EXTR
+ecoff_FDR	ecoff.h	/^} ecoff_FDR;$/;"	t	typeref:struct:ecoff_fdr
+ecoff_HDRR	ecoff.h	/^} ecoff_HDRR;$/;"	t	typeref:struct:ecoff_symhdr_t
+ecoff_PDR	ecoff.h	/^} ecoff_PDR;$/;"	t	typeref:struct:ecoff_pdr
+ecoff_SYMR	ecoff.h	/^typedef struct ecoff_SYMR {$/;"	s
+ecoff_SYMR	ecoff.h	/^} ecoff_SYMR;$/;"	t	typeref:struct:ecoff_SYMR
+ecoff_aouthdr	ecoff.h	/^struct ecoff_aouthdr {$/;"	s
+ecoff_fdr	ecoff.h	/^typedef struct ecoff_fdr {$/;"	s
+ecoff_filehdr	ecoff.h	/^struct ecoff_filehdr {$/;"	s
+ecoff_obj_data	bfd.h	/^      struct ecoff_tdata *ecoff_obj_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::ecoff_tdata
+ecoff_pdr	ecoff.h	/^typedef struct ecoff_pdr {$/;"	s
+ecoff_scnhdr	ecoff.h	/^struct ecoff_scnhdr {$/;"	s
+ecoff_symhdr_t	ecoff.h	/^typedef struct ecoff_symhdr_t {$/;"	s
+elf_obj_data	bfd.h	/^      struct elf_obj_tdata *elf_obj_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::elf_obj_tdata
+empty	debug.h	/^	bool empty() {$/;"	f	class:debug_buffer
+endian_big	_endian.h	/^enum endian_t { endian_big, endian_little, endian_unknown};$/;"	e	enum:endian_t
+endian_little	_endian.h	/^enum endian_t { endian_big, endian_little, endian_unknown};$/;"	e	enum:endian_t
+endian_t	_endian.h	/^enum endian_t { endian_big, endian_little, endian_unknown};$/;"	g
+endian_unknown	_endian.h	/^enum endian_t { endian_big, endian_little, endian_unknown};$/;"	e	enum:endian_t
+entry	ecoff.h	/^  int entry;$/;"	m	struct:ecoff_aouthdr
+extra_arg	obstack.h	/^  char *extra_arg;		\/* first arg for chunk alloc\/dealloc funcs *\/$/;"	m	struct:obstack
+extractl	misc.h	/^extractl(long word,     \/* the word from which to extract *\/$/;"	f
+f	regs.h	/^    SS_FLOAT_TYPE f[SS_NUM_REGS];$/;"	m	union:regs_FP
+fBigendian	ecoff.h	/^  unsigned fBigendian :1;$/;"	m	struct:ecoff_fdr
+fMerge	ecoff.h	/^  unsigned fMerge :1;$/;"	m	struct:ecoff_fdr
+fReadin	ecoff.h	/^  unsigned fReadin :1;$/;"	m	struct:ecoff_fdr
+f_flags	ecoff.h	/^  unsigned short f_flags;$/;"	m	struct:ecoff_filehdr
+f_magic	ecoff.h	/^  unsigned short f_magic;$/;"	m	struct:ecoff_filehdr
+f_nscns	ecoff.h	/^  unsigned short f_nscns;$/;"	m	struct:ecoff_filehdr
+f_nsyms	ecoff.h	/^  int f_nsyms;$/;"	m	struct:ecoff_filehdr
+f_opthdr	ecoff.h	/^  unsigned short f_opthdr;$/;"	m	struct:ecoff_filehdr
+f_symptr	ecoff.h	/^  int f_symptr;$/;"	m	struct:ecoff_filehdr
+f_timdat	ecoff.h	/^  int f_timdat;$/;"	m	struct:ecoff_filehdr
+fatal	misc.h	140;"	d
+fetch	Thread.h	/^void fetch(unsigned int pc, SS_INST_TYPE& inst) {$/;"	f	class:Thread
+file_offset	bfd.h	/^  file_ptr file_offset;		\/* look here to find the file *\/$/;"	m	struct:carsym
+file_ptr	bfd.h	/^typedef long int file_ptr;$/;"	t
+filename	bfd.h	/^    CONST char *filename;                $/;"	m	struct:_bfd
+filepos	bfd.h	/^   file_ptr filepos;$/;"	m	struct:sec
+find	debug.h	/^	debug_index find(debug_index i, unsigned int pc) {$/;"	f	class:debug_buffer
+finish_syscall_exit	debug.h	/^	void finish_syscall_exit() {$/;"	f	class:debug_buffer
+first	Thread.h	/^debug_index first(unsigned int pc) {$/;"	f	class:Thread
+first	debug.h	/^	debug_index first(unsigned int pc) {$/;"	f	class:debug_buffer
+flags	bfd.h	/^    flagword flags;              $/;"	m	struct:_bfd
+flags	bfd.h	/^    flagword flags;$/;"	m	struct:sec
+flags	bfd.h	/^  flagword flags;$/;"	m	struct:symbol_cache_entry
+flagword	bfd.h	/^typedef unsigned int flagword;	\/* 32 bits of flags *\/$/;"	t
+flavour	bfd.h	/^  enum bfd_flavour flavour;$/;"	m	struct:bfd_target	typeref:enum:bfd_target::bfd_flavour
+format	bfd.h	/^    bfd_format format;$/;"	m	struct:_bfd
+fprintf_vma	bfd.h	137;"	d
+fprintf_vma	bfd.h	159;"	d
+frameoffset	ecoff.h	/^  int frameoffset;$/;"	m	struct:ecoff_pdr
+framereg	ecoff.h	/^  short framereg;$/;"	m	struct:ecoff_pdr
+freefun	obstack.h	/^  void (*freefun) ();		\/* User's function to free a chunk.  *\/$/;"	m	struct:obstack
+fregmask	ecoff.h	/^  int fregmask;$/;"	m	struct:ecoff_pdr
+fregoffset	ecoff.h	/^  int fregoffset;$/;"	m	struct:ecoff_pdr
+get_arch_PC	Thread.h	/^unsigned int get_arch_PC() {$/;"	f	class:Thread
+get_instr	Thread.h	/^db_t *get_instr() {$/;"	f	class:Thread
+get_mem_table	Thread.h	/^char **get_mem_table() {$/;"	f	class:Thread
+gp_value	ecoff.h	/^  int gp_value;$/;"	m	struct:ecoff_aouthdr
+gprmask	ecoff.h	/^  int gprmask;$/;"	m	struct:ecoff_aouthdr
+hardware_counters	Thread.h	/^unsigned int hardware_counters[NUM_HW_COUNTERS];$/;"	m	class:Thread
+has_armap	bfd.h	/^    bool has_armap;           $/;"	m	struct:_bfd
+hash	bfd.h	/^  unsigned long hash;$/;"	m	struct:bfd_hash_entry
+head	debug.h	/^	unsigned int head;$/;"	m	class:debug_buffer
+header_byteorder_big_p	bfd.h	/^  bool header_byteorder_big_p;$/;"	m	struct:bfd_target
+howto	bfd.h	/^  const struct reloc_howto_struct *howto;$/;"	m	struct:reloc_cache_entry	typeref:struct:reloc_cache_entry::reloc_howto_struct
+hppabsd_core_data	bfd.h	/^      struct hppabsd_core_struct *hppabsd_core_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::hppabsd_core_struct
+hpux_core_data	bfd.h	/^      struct hpux_core_struct *hpux_core_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::hpux_core_struct
+hungry	debug.h	/^	bool hungry() {$/;"	f	class:debug_buffer
+hw_counter_CYCLE	hw_counters.h	1;"	d
+hw_counter_INSTR	hw_counters.h	2;"	d
+iauxBase	ecoff.h	/^  int iauxBase;$/;"	m	struct:ecoff_fdr
+iauxMax	ecoff.h	/^  int iauxMax;$/;"	m	struct:ecoff_symhdr_t
+idnMax	ecoff.h	/^  int idnMax;$/;"	m	struct:ecoff_symhdr_t
+ieee_ar_data	bfd.h	/^      struct ieee_ar_data_struct *ieee_ar_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::ieee_ar_data_struct
+ieee_data	bfd.h	/^      struct ieee_data_struct *ieee_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::ieee_data_struct
+iextMax	ecoff.h	/^  int iextMax;$/;"	m	struct:ecoff_symhdr_t
+ifd	bfd.h	/^    int ifd;$/;"	m	struct:_bfd
+ifd	ecoff.h	/^  short ifd;$/;"	m	struct:ecoff_EXTR
+ifdMax	ecoff.h	/^  int ifdMax;$/;"	m	struct:ecoff_symhdr_t
+iline	ecoff.h	/^  int iline;$/;"	m	struct:ecoff_pdr
+ilineBase	ecoff.h	/^  int ilineBase;$/;"	m	struct:ecoff_fdr
+ilineMax	ecoff.h	/^  int ilineMax;$/;"	m	struct:ecoff_symhdr_t
+increment_hw_counter	Thread.h	/^void increment_hw_counter(unsigned int ctr) {$/;"	f	class:Thread
+index	bfd.h	/^   int index;$/;"	m	struct:sec
+index	ecoff.h	/^  unsigned index :20;$/;"	m	struct:ecoff_SYMR
+info	misc.h	163;"	d
+int64_type	bfd.h	/^typedef BFD_HOST_64_BIT int64_type;$/;"	t
+int64_type	bfd.h	125;"	d
+iopt	ecoff.h	/^  int iopt;$/;"	m	struct:ecoff_pdr
+ioptBase	ecoff.h	/^  int ioptBase;$/;"	m	struct:ecoff_fdr
+ioptMax	ecoff.h	/^  int ioptMax;$/;"	m	struct:ecoff_symhdr_t
+iostream	bfd.h	/^    char *iostream;$/;"	m	struct:_bfd
+ipdFirst	ecoff.h	/^  unsigned short ipdFirst;$/;"	m	struct:ecoff_fdr
+ipdMax	ecoff.h	/^  int ipdMax;$/;"	m	struct:ecoff_symhdr_t
+is_active	debug.h	/^        bool is_active(unsigned int e) {$/;"	f	class:debug_buffer
+iss	ecoff.h	/^  int iss;$/;"	m	struct:ecoff_SYMR
+issBase	ecoff.h	/^  int issBase;$/;"	m	struct:ecoff_fdr
+issExtMax	ecoff.h	/^  int issExtMax;$/;"	m	struct:ecoff_symhdr_t
+issMax	ecoff.h	/^  int issMax;$/;"	m	struct:ecoff_symhdr_t
+isym	ecoff.h	/^  int isym;$/;"	m	struct:ecoff_pdr
+isymBase	ecoff.h	/^  int isymBase;$/;"	m	struct:ecoff_fdr
+isymMax	ecoff.h	/^  int isymMax;$/;"	m	struct:ecoff_symhdr_t
+l	regs.h	/^    SS_WORD_TYPE l[SS_NUM_REGS];$/;"	m	union:regs_FP
+lang	ecoff.h	/^  unsigned lang :5;$/;"	m	struct:ecoff_fdr
+ld_data_base	Thread.h	/^SS_ADDR_TYPE ld_data_base;$/;"	m	class:Thread
+ld_data_size	Thread.h	/^SS_ADDR_TYPE ld_data_size;$/;"	m	class:Thread
+ld_environ_base	Thread.h	/^SS_ADDR_TYPE ld_environ_base;$/;"	m	class:Thread
+ld_prog_entry	Thread.h	/^SS_ADDR_TYPE ld_prog_entry;$/;"	m	class:Thread
+ld_prog_fname	Thread.h	/^char *ld_prog_fname;$/;"	m	class:Thread
+ld_stack_base	Thread.h	/^SS_ADDR_TYPE ld_stack_base;$/;"	m	class:Thread
+ld_stack_size	Thread.h	/^SS_ADDR_TYPE ld_stack_size;$/;"	m	class:Thread
+ld_text_base	Thread.h	/^SS_ADDR_TYPE ld_text_base;$/;"	m	class:Thread
+ld_text_size	Thread.h	/^SS_ADDR_TYPE ld_text_size;$/;"	m	class:Thread
+length	debug.h	/^	int length;$/;"	m	class:debug_buffer
+limit	obstack.h	/^  char  *limit;			\/* 1 past end of this chunk *\/$/;"	m	struct:_obstack_chunk
+line_filepos	bfd.h	/^   file_ptr line_filepos;$/;"	m	struct:sec
+line_number	bfd.h	/^  unsigned int line_number;	\/* Linenumber from start of function*\/  $/;"	m	struct:lineno_cache_entry
+lineno	bfd.h	/^   alent *lineno;$/;"	m	struct:sec
+lineno_cache_entry	bfd.h	/^typedef struct lineno_cache_entry {$/;"	s
+lineno_count	bfd.h	/^   unsigned int lineno_count;$/;"	m	struct:sec
+link_next	bfd.h	/^    struct _bfd *link_next;$/;"	m	struct:_bfd	typeref:struct:_bfd::_bfd
+link_order_head	bfd.h	/^   struct bfd_link_order *link_order_head;$/;"	m	struct:sec	typeref:struct:sec::bfd_link_order
+link_order_tail	bfd.h	/^   struct bfd_link_order *link_order_tail;$/;"	m	struct:sec	typeref:struct:sec::bfd_link_order
+lma	bfd.h	/^   bfd_vma lma;$/;"	m	struct:sec
+lnHigh	ecoff.h	/^  int lnHigh;$/;"	m	struct:ecoff_pdr
+lnLow	ecoff.h	/^  int lnLow;$/;"	m	struct:ecoff_pdr
+local_regs_R	Thread.h	/^SS_WORD_TYPE *local_regs_R;$/;"	m	class:Thread
+lockaddr	Thread.h	/^SS_ADDR_TYPE lockaddr;	\/\/ address of lock$/;"	m	class:Thread
+lru_next	bfd.h	/^    struct _bfd *lru_prev, *lru_next;$/;"	m	struct:_bfd	typeref:struct:_bfd::
+lru_prev	bfd.h	/^    struct _bfd *lru_prev, *lru_next;$/;"	m	struct:_bfd	typeref:struct:_bfd::_bfd
+lynx_core_data	bfd.h	/^      struct lynx_core_struct *lynx_core_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::lynx_core_struct
+mach	bfd.h	/^  long mach;$/;"	m	struct:bfd_arch_info
+magic	ecoff.h	/^  short magic;$/;"	m	struct:ecoff_aouthdr
+magic	ecoff.h	/^  short magic;$/;"	m	struct:ecoff_symhdr_t
+maybe_empty_object	obstack.h	/^  unsigned maybe_empty_object:1;\/* There is a possibility that the current$/;"	m	struct:obstack
+mem_access_fn	Thread.h	/^(Thread::*mem_access_fn)(enum mem_cmd cmd,      \/* Read or Write *\/$/;"	t	class:Thread
+mem_brk_point	Thread.h	/^SS_ADDR_TYPE mem_brk_point;	\/\/ top of the data segment$/;"	m	class:Thread
+mem_cmd	memory.h	/^enum mem_cmd { Read, Write };$/;"	g
+mem_read_byte	memory.h	80;"	d
+mem_read_half	memory.h	73;"	d
+mem_read_word	memory.h	66;"	d
+mem_stack_min	Thread.h	/^SS_ADDR_TYPE mem_stack_min;	\/\/ lowest address accessed on the stack$/;"	m	class:Thread
+mem_table	Thread.h	/^char *mem_table[MEM_TABLE_SIZE];$/;"	m	class:Thread
+mem_write_byte	memory.h	82;"	d
+mem_write_half	memory.h	76;"	d
+mem_write_word	memory.h	69;"	d
+memory	bfd.h	/^    struct obstack memory;$/;"	m	struct:_bfd	typeref:struct:_bfd::obstack
+memory	bfd.h	/^  struct obstack memory;$/;"	m	struct:bfd_hash_table	typeref:struct:bfd_hash_table::obstack
+moving_line_filepos	bfd.h	/^   file_ptr moving_line_filepos;$/;"	m	struct:sec
+mtime	bfd.h	/^    long mtime;          $/;"	m	struct:_bfd
+mtime_set	bfd.h	/^    bool mtime_set;$/;"	m	struct:_bfd
+my_archive	bfd.h	/^    struct _bfd *my_archive;      \/* The containing archive BFD.  *\/$/;"	m	struct:_bfd	typeref:struct:_bfd::_bfd
+n	debug.h	/^	unsigned int n;		\/\/ arch register$/;"	m	struct:__anon3
+n_private_acc	Thread.h	/^unsigned int n_private_acc;	    \/\/ number of private memory accesses$/;"	m	class:Thread
+n_private_new	Thread.h	/^unsigned int n_private_new;	    \/\/ number of mem_newblock's to mem_table$/;"	m	class:Thread
+n_private_tas	Thread.h	/^unsigned int n_private_tas;	    \/\/ test&set's to private mem lock$/;"	m	class:Thread
+n_private_tas_succeed	Thread.h	/^unsigned int n_private_tas_succeed; \/\/ num that succeeded...$/;"	m	class:Thread
+n_shared_acc	Thread.h	/^unsigned int n_shared_acc;	    \/\/ number of shared memory accesses$/;"	m	class:Thread
+n_shared_new	Thread.h	/^unsigned int n_shared_new;	    \/\/ number of mem_newblock's to shmem_table$/;"	m	class:Thread
+n_shared_tas	Thread.h	/^unsigned int n_shared_tas;	    \/\/ test&set's to shared mem lock$/;"	m	class:Thread
+n_shared_tas_succeed	Thread.h	/^unsigned int n_shared_tas_succeed;  \/\/ num that succeeded...$/;"	m	class:Thread
+name	bfd.h	/^    CONST char *name;$/;"	m	struct:sec
+name	bfd.h	/^  CONST char *name;            \/* Symbol name.  *\/$/;"	m	struct:_symbol_info
+name	bfd.h	/^  CONST char *name;$/;"	m	struct:symbol_cache_entry
+name	bfd.h	/^  char **name;			\/* symbol name *\/ $/;"	m	struct:orl
+name	bfd.h	/^  char *name;$/;"	m	struct:bfd_target
+name	bfd.h	/^  char *name;$/;"	m	struct:carsym
+name	bfd.h	/^  char *name;$/;"	m	struct:reloc_howto_struct
+namidx	bfd.h	/^  int namidx;			\/* index into string table *\/$/;"	m	struct:orl
+newfunc	bfd.h	/^  struct bfd_hash_entry *(*newfunc) PARAMS ((struct bfd_hash_entry *,$/;"	m	struct:bfd_hash_table	typeref:struct:bfd_hash_table::newfunc
+next	bfd.h	/^    struct _bfd *next;            \/* The next BFD in the archive.  *\/$/;"	m	struct:_bfd	typeref:struct:_bfd::_bfd
+next	bfd.h	/^    struct sec *next;$/;"	m	struct:sec	typeref:struct:sec::sec
+next	bfd.h	/^  struct   relent_chain *next;$/;"	m	struct:relent_chain	typeref:struct:relent_chain::relent_chain
+next	bfd.h	/^  struct bfd_arch_info *next;$/;"	m	struct:bfd_arch_info	typeref:struct:bfd_arch_info::bfd_arch_info
+next	bfd.h	/^  struct bfd_hash_entry *next;$/;"	m	struct:bfd_hash_entry	typeref:struct:bfd_hash_entry::bfd_hash_entry
+next_PC	Thread.h	/^SS_ADDR_TYPE next_PC;	\/\/ not really part of ISA...$/;"	m	class:Thread
+next_free	obstack.h	/^  char	*next_free;		\/* where to add next char to current object *\/$/;"	m	struct:obstack
+nlm_obj_data	bfd.h	/^      struct nlm_obj_tdata *nlm_obj_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::nlm_obj_tdata
+no_direction	bfd.h	/^    enum bfd_direction {no_direction = 0,$/;"	e	enum:_bfd::bfd_direction
+num_insn	Thread.h	/^SS_COUNTER_TYPE num_insn;$/;"	m	class:Thread
+num_refs	Thread.h	/^SS_COUNTER_TYPE num_refs;$/;"	m	class:Thread
+oasys_ar_data	bfd.h	/^      struct _oasys_ar_data *oasys_ar_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::_oasys_ar_data
+oasys_obj_data	bfd.h	/^      struct _oasys_data *oasys_obj_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::_oasys_data
+object_base	obstack.h	/^  char	*object_base;		\/* address of object we are building *\/$/;"	m	struct:obstack
+object_flags	bfd.h	/^  flagword object_flags;       $/;"	m	struct:bfd_target
+obstack	obstack.h	/^struct obstack		\/* control current object in current chunk *\/$/;"	s
+obstack_1grow	obstack.h	319;"	d
+obstack_1grow	obstack.h	443;"	d
+obstack_1grow_fast	obstack.h	267;"	d
+obstack_alignment_mask	obstack.h	243;"	d
+obstack_alloc	obstack.h	363;"	d
+obstack_alloc	obstack.h	471;"	d
+obstack_base	obstack.h	231;"	d
+obstack_begin	obstack.h	249;"	d
+obstack_blank	obstack.h	353;"	d
+obstack_blank	obstack.h	464;"	d
+obstack_blank_fast	obstack.h	269;"	d
+obstack_chunk_size	obstack.h	235;"	d
+obstack_chunkfun	obstack.h	261;"	d
+obstack_copy	obstack.h	369;"	d
+obstack_copy	obstack.h	474;"	d
+obstack_copy0	obstack.h	375;"	d
+obstack_copy0	obstack.h	477;"	d
+obstack_finish	obstack.h	383;"	d
+obstack_finish	obstack.h	480;"	d
+obstack_free	obstack.h	404;"	d
+obstack_free	obstack.h	496;"	d
+obstack_free	obstack.h	503;"	d
+obstack_freefun	obstack.h	264;"	d
+obstack_grow	obstack.h	292;"	d
+obstack_grow	obstack.h	426;"	d
+obstack_grow0	obstack.h	305;"	d
+obstack_grow0	obstack.h	434;"	d
+obstack_init	obstack.h	245;"	d
+obstack_int_grow	obstack.h	341;"	d
+obstack_int_grow	obstack.h	455;"	d
+obstack_int_grow_fast	obstack.h	351;"	d
+obstack_int_grow_fast	obstack.h	462;"	d
+obstack_next_free	obstack.h	239;"	d
+obstack_object_size	obstack.h	281;"	d
+obstack_object_size	obstack.h	414;"	d
+obstack_ptr_grow	obstack.h	332;"	d
+obstack_ptr_grow	obstack.h	449;"	d
+obstack_ptr_grow_fast	obstack.h	350;"	d
+obstack_ptr_grow_fast	obstack.h	461;"	d
+obstack_room	obstack.h	287;"	d
+obstack_room	obstack.h	417;"	d
+obstack_specify_allocation	obstack.h	253;"	d
+obstack_specify_allocation_with_arg	obstack.h	257;"	d
+offset	bfd.h	/^    unsigned long offset;	\/* Offset into section *\/$/;"	m	union:lineno_cache_entry::__anon1
+opened_once	bfd.h	/^    bool opened_once;$/;"	m	struct:_bfd
+openr_next_archived_file	bfd.h	/^  bfd *    (*openr_next_archived_file) PARAMS ((bfd *arch, bfd *prev));$/;"	m	struct:bfd_target
+operand_t	operand.h	/^} operand_t;$/;"	t	typeref:enum:__anon6
+orelocation	bfd.h	/^   struct reloc_cache_entry **orelocation;$/;"	m	struct:sec	typeref:struct:sec::reloc_cache_entry
+origin	bfd.h	/^    file_ptr origin;             $/;"	m	struct:_bfd
+orl	bfd.h	/^struct orl {			\/* output ranlib *\/$/;"	s
+osf_core_data	bfd.h	/^      struct osf_core_struct *osf_core_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::osf_core_struct
+output_has_begun	bfd.h	/^    bool output_has_begun;$/;"	m	struct:_bfd
+output_offset	bfd.h	/^   bfd_vma output_offset;$/;"	m	struct:sec
+output_section	bfd.h	/^   struct sec *output_section;$/;"	m	struct:sec	typeref:struct:sec::sec
+outsymbols	bfd.h	/^    struct symbol_cache_entry  **outsymbols;             $/;"	m	struct:_bfd	typeref:struct:_bfd::symbol_cache_entry
+owner	bfd.h	/^   bfd *owner;$/;"	m	struct:sec
+panic	misc.h	148;"	d
+partial_inplace	bfd.h	/^  bool partial_inplace;$/;"	m	struct:reloc_howto_struct
+pc_ptr	debug.h	/^	unsigned int pc_ptr;	\/\/ used by pop_pc()$/;"	m	class:debug_buffer
+pc_relative	bfd.h	/^  bool pc_relative;$/;"	m	struct:reloc_howto_struct
+pcreg	ecoff.h	/^  short pcreg;$/;"	m	struct:ecoff_pdr
+pcrel_offset	bfd.h	/^  bool pcrel_offset;$/;"	m	struct:reloc_howto_struct
+peek	Thread.h	/^db_t *peek(debug_index i) {$/;"	f	class:Thread
+peek	debug.h	/^	db_t *peek(debug_index i) {$/;"	f	class:debug_buffer
+pop	Thread.h	/^db_t *pop(debug_index i) {$/;"	f	class:Thread
+pop	debug.h	/^	db_t *pop(debug_index i) {$/;"	f	class:debug_buffer
+pop_pc	Thread.h	/^unsigned int pop_pc() {$/;"	f	class:Thread
+pop_pc	debug.h	/^	unsigned int pop_pc() {$/;"	f	class:debug_buffer
+pos	bfd.h	/^  file_ptr pos;			\/* bfd* or file position *\/$/;"	m	struct:orl
+prev	obstack.h	/^  struct _obstack_chunk *prev;	\/* address of prior chunk or NULL *\/$/;"	m	struct:_obstack_chunk	typeref:struct:_obstack_chunk::_obstack_chunk
+printable_name	bfd.h	/^  CONST  char *printable_name;$/;"	m	struct:bfd_arch_info
+printf_vma	bfd.h	162;"	d
+push_address_actual	debug.h	/^	void push_address_actual(unsigned int addr,$/;"	f	class:debug_buffer
+push_instr_actual	debug.h	/^	void push_instr_actual(SS_INST_TYPE inst,$/;"	f	class:debug_buffer
+push_operand_actual	debug.h	/^	void push_operand_actual(unsigned int n,$/;"	f	class:debug_buffer
+read_direction	bfd.h	/^                        read_direction = 1,$/;"	e	enum:_bfd::bfd_direction
+read_hw_counter	Thread.h	/^unsigned int read_hw_counter(unsigned int ctr) {$/;"	f	class:Thread
+real_lower	Thread.h	/^unsigned int real_upper, real_lower;$/;"	m	class:Thread
+real_lower	debug.h	/^	unsigned int	real_lower;$/;"	m	struct:__anon5
+real_upper	Thread.h	/^unsigned int real_upper, real_lower;$/;"	m	class:Thread
+real_upper	debug.h	/^	unsigned int	real_upper;$/;"	m	struct:__anon5
+regmask	ecoff.h	/^  int regmask;$/;"	m	struct:ecoff_pdr
+regoffset	ecoff.h	/^  int regoffset;$/;"	m	struct:ecoff_pdr
+regs_F	Thread.h	/^union regs_FP regs_F;			\/\/ floating point regs$/;"	m	class:Thread	typeref:union:Thread::regs_FP
+regs_FCC	Thread.h	/^int regs_FCC;			\/\/ floating point condition codes$/;"	m	class:Thread
+regs_FP	regs.h	/^union regs_FP {$/;"	u
+regs_HI	Thread.h	/^SS_WORD_TYPE regs_HI;		\/\/ (signed) hi register, hold mul\/div results$/;"	m	class:Thread
+regs_LO	Thread.h	/^SS_WORD_TYPE regs_LO;		\/\/ (signed) lo register, hold mul\/div results$/;"	m	class:Thread
+regs_PC	Thread.h	/^SS_ADDR_TYPE regs_PC;	\/\/ PC of last complete instruction w\/r\/t precise state$/;"	m	class:Thread
+regs_R	Thread.h	/^SS_WORD_TYPE regs_R[SS_NUM_REGS];	\/\/ (signed) integer regs$/;"	m	class:Thread
+rel_filepos	bfd.h	/^   file_ptr rel_filepos;$/;"	m	struct:sec
+relent	bfd.h	/^  arelent relent;$/;"	m	struct:relent_chain
+relent_chain	bfd.h	/^typedef struct relent_chain {$/;"	s
+reloc_cache_entry	bfd.h	/^typedef struct reloc_cache_entry$/;"	s
+reloc_count	bfd.h	/^   unsigned reloc_count;$/;"	m	struct:sec
+reloc_done	bfd.h	/^   bool reloc_done;$/;"	m	struct:sec
+reloc_howto_struct	bfd.h	/^struct reloc_howto_struct$/;"	s
+reloc_howto_type	bfd.h	/^typedef struct reloc_howto_struct reloc_howto_type;$/;"	t	typeref:struct:reloc_howto_struct
+reloc_type_lookup	bfd.h	/^       (*reloc_type_lookup) PARAMS ((bfd *abfd,$/;"	m	struct:bfd_target	typeref:struct:bfd_target::reloc_type_lookup
+relocation	bfd.h	/^   struct reloc_cache_entry *relocation;$/;"	m	struct:sec	typeref:struct:sec::reloc_cache_entry
+reserved	ecoff.h	/^  short reserved;$/;"	m	struct:ecoff_EXTR
+reserved	ecoff.h	/^  unsigned reserved :1;$/;"	m	struct:ecoff_SYMR
+reserved	ecoff.h	/^  unsigned reserved :24;$/;"	m	struct:ecoff_fdr
+reset_hw_counter	Thread.h	/^void reset_hw_counter(unsigned int ctr) {$/;"	f	class:Thread
+rfdBase	ecoff.h	/^  int rfdBase;$/;"	m	struct:ecoff_fdr
+rightshift	bfd.h	/^  unsigned int rightshift;$/;"	m	struct:reloc_howto_struct
+rss	ecoff.h	/^  int rss;$/;"	m	struct:ecoff_fdr
+run_ahead	Thread.h	/^void run_ahead() {$/;"	f	class:Thread
+s_flags	ecoff.h	/^  int s_flags;$/;"	m	struct:ecoff_scnhdr
+s_lnnoptr	ecoff.h	/^  int s_lnnoptr;$/;"	m	struct:ecoff_scnhdr
+s_name	ecoff.h	/^  char s_name[8];$/;"	m	struct:ecoff_scnhdr
+s_nlnno	ecoff.h	/^  unsigned short s_nlnno;$/;"	m	struct:ecoff_scnhdr
+s_nreloc	ecoff.h	/^  unsigned short s_nreloc;$/;"	m	struct:ecoff_scnhdr
+s_paddr	ecoff.h	/^  int s_paddr;$/;"	m	struct:ecoff_scnhdr
+s_relptr	ecoff.h	/^  int s_relptr;$/;"	m	struct:ecoff_scnhdr
+s_scnptr	ecoff.h	/^  int s_scnptr;$/;"	m	struct:ecoff_scnhdr
+s_size	ecoff.h	/^  int s_size;$/;"	m	struct:ecoff_scnhdr
+s_vaddr	ecoff.h	/^  int s_vaddr;$/;"	m	struct:ecoff_scnhdr
+sc	ecoff.h	/^  unsigned sc :5;$/;"	m	struct:ecoff_SYMR
+scan	bfd.h	/^  bool (*scan) PARAMS ((CONST struct bfd_arch_info *, CONST char *));$/;"	m	struct:bfd_arch_info
+sec	bfd.h	/^typedef struct sec$/;"	s
+sec_ptr	bfd.h	/^typedef struct sec *sec_ptr;$/;"	t	typeref:struct:sec
+section	bfd.h	/^  struct sec *section;$/;"	m	struct:symbol_cache_entry	typeref:struct:symbol_cache_entry::sec
+section_align_power	bfd.h	/^  unsigned int section_align_power;$/;"	m	struct:bfd_arch_info
+section_count	bfd.h	/^    unsigned int section_count;$/;"	m	struct:_bfd
+section_flags	bfd.h	/^  flagword section_flags;$/;"	m	struct:bfd_target
+sections	bfd.h	/^    struct sec  *sections;$/;"	m	struct:_bfd	typeref:struct:_bfd::sec
+sgi_core_data	bfd.h	/^      struct sgi_core_struct *sgi_core_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::sgi_core_struct
+size	bfd.h	/^  int size;$/;"	m	struct:reloc_howto_struct
+size	bfd.h	/^  unsigned int size;$/;"	m	struct:bfd_hash_table
+som_data	bfd.h	/^      struct som_data_struct *som_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::som_data_struct
+special_function	bfd.h	/^  bfd_reloc_status_type (*special_function)$/;"	m	struct:reloc_howto_struct
+sprintf_vma	bfd.h	139;"	d
+sprintf_vma	bfd.h	160;"	d
+src_mask	bfd.h	/^  bfd_vma src_mask;$/;"	m	struct:reloc_howto_struct
+srec_data	bfd.h	/^      struct srec_data_struct *srec_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::srec_data_struct
+ss_fu_class	ss.h	/^enum ss_fu_class {$/;"	g
+ss_opcode	ss.h	/^enum ss_opcode {$/;"	g
+ss_rlim_cur	syscall.h	/^  int ss_rlim_cur;               \/* current (soft) limit *\/$/;"	m	struct:ss_rlimit
+ss_rlim_max	syscall.h	/^  int ss_rlim_max;               \/* maximum value for rlim_cur *\/$/;"	m	struct:ss_rlimit
+ss_rlimit	syscall.h	/^struct ss_rlimit$/;"	s
+ss_ru_idrss	syscall.h	/^    int ss_ru_idrss;$/;"	m	struct:ss_rusage
+ss_ru_inblock	syscall.h	/^    int ss_ru_inblock;$/;"	m	struct:ss_rusage
+ss_ru_isrss	syscall.h	/^    int ss_ru_isrss;$/;"	m	struct:ss_rusage
+ss_ru_ixrss	syscall.h	/^    int ss_ru_ixrss;$/;"	m	struct:ss_rusage
+ss_ru_majflt	syscall.h	/^    int ss_ru_majflt;$/;"	m	struct:ss_rusage
+ss_ru_maxrss	syscall.h	/^    int ss_ru_maxrss;$/;"	m	struct:ss_rusage
+ss_ru_minflt	syscall.h	/^    int ss_ru_minflt;$/;"	m	struct:ss_rusage
+ss_ru_msgrcv	syscall.h	/^    int ss_ru_msgrcv;$/;"	m	struct:ss_rusage
+ss_ru_msgsnd	syscall.h	/^    int ss_ru_msgsnd;$/;"	m	struct:ss_rusage
+ss_ru_nivcsw	syscall.h	/^    int ss_ru_nivcsw;$/;"	m	struct:ss_rusage
+ss_ru_nsignals	syscall.h	/^    int ss_ru_nsignals;$/;"	m	struct:ss_rusage
+ss_ru_nswap	syscall.h	/^    int ss_ru_nswap;$/;"	m	struct:ss_rusage
+ss_ru_nvcsw	syscall.h	/^    int ss_ru_nvcsw;$/;"	m	struct:ss_rusage
+ss_ru_oublock	syscall.h	/^    int ss_ru_oublock;$/;"	m	struct:ss_rusage
+ss_ru_stime	syscall.h	/^    struct ss_timeval ss_ru_stime;$/;"	m	struct:ss_rusage	typeref:struct:ss_rusage::ss_timeval
+ss_ru_utime	syscall.h	/^    struct ss_timeval ss_ru_utime;$/;"	m	struct:ss_rusage	typeref:struct:ss_rusage::ss_timeval
+ss_rusage	syscall.h	/^struct ss_rusage$/;"	s
+ss_st_atime	syscall.h	/^        int          	ss_st_atime;$/;"	m	struct:ss_statbuf
+ss_st_blksize	syscall.h	/^        int            ss_st_blksize;$/;"	m	struct:ss_statbuf
+ss_st_blocks	syscall.h	/^        int            ss_st_blocks;$/;"	m	struct:ss_statbuf
+ss_st_ctime	syscall.h	/^        int          	ss_st_ctime;$/;"	m	struct:ss_statbuf
+ss_st_dev	syscall.h	/^        short           ss_st_dev;$/;"	m	struct:ss_statbuf
+ss_st_gennum	syscall.h	/^        unsigned int   ss_st_gennum;$/;"	m	struct:ss_statbuf
+ss_st_gid	syscall.h	/^        short           ss_st_gid;$/;"	m	struct:ss_statbuf
+ss_st_ino	syscall.h	/^        unsigned int   ss_st_ino;$/;"	m	struct:ss_statbuf
+ss_st_mode	syscall.h	/^        unsigned short  ss_st_mode;$/;"	m	struct:ss_statbuf
+ss_st_mtime	syscall.h	/^        int          	ss_st_mtime;$/;"	m	struct:ss_statbuf
+ss_st_nlink	syscall.h	/^        short         	ss_st_nlink;$/;"	m	struct:ss_statbuf
+ss_st_rdev	syscall.h	/^        short           ss_st_rdev;$/;"	m	struct:ss_statbuf
+ss_st_size	syscall.h	/^        int           	ss_st_size;$/;"	m	struct:ss_statbuf
+ss_st_spare1	syscall.h	/^        int             ss_st_spare1;$/;"	m	struct:ss_statbuf
+ss_st_spare2	syscall.h	/^        int             ss_st_spare2;$/;"	m	struct:ss_statbuf
+ss_st_spare3	syscall.h	/^        int             ss_st_spare3;$/;"	m	struct:ss_statbuf
+ss_st_spare4	syscall.h	/^        int            ss_st_spare4;$/;"	m	struct:ss_statbuf
+ss_st_uid	syscall.h	/^        short           ss_st_uid;$/;"	m	struct:ss_statbuf
+ss_statbuf	syscall.h	/^struct  ss_statbuf$/;"	s
+ss_timeval	syscall.h	/^struct ss_timeval$/;"	s
+ss_timezone	syscall.h	/^struct ss_timezone$/;"	s
+ss_tv_sec	syscall.h	/^  int ss_tv_sec;         \/* seconds *\/$/;"	m	struct:ss_timeval
+ss_tv_usec	syscall.h	/^  int ss_tv_usec;        \/* microseconds *\/$/;"	m	struct:ss_timeval
+ss_tz_dsttime	syscall.h	/^  int ss_tz_dsttime;     \/* type of dst correction *\/$/;"	m	struct:ss_timezone
+ss_tz_minuteswest	syscall.h	/^  int ss_tz_minuteswest; \/* minutes west of Greenwich *\/$/;"	m	struct:ss_timezone
+st	ecoff.h	/^  unsigned st :6;$/;"	m	struct:ecoff_SYMR
+stab_desc	bfd.h	/^  short stab_desc;             \/* Info for N_TYPE.  *\/$/;"	m	struct:_symbol_info
+stab_name	bfd.h	/^  CONST char *stab_name;$/;"	m	struct:_symbol_info
+stab_other	bfd.h	/^  char stab_other;             \/* Unused. *\/$/;"	m	struct:_symbol_info
+start	debug.h	/^	void start() {$/;"	f	class:debug_buffer
+start_address	bfd.h	/^    bfd_vma start_address;$/;"	m	struct:_bfd
+stat_type	bfd.h	/^typedef struct stat stat_type; $/;"	t	typeref:struct:stat
+stats	Thread.h	/^void stats() {$/;"	f	class:Thread
+store_addr	Thread.h	/^unsigned int store_addr;$/;"	m	class:Thread
+store_data	debug.h	/^	store_data_t    store_data;$/;"	m	struct:__anon5
+store_data_t	debug.h	/^} store_data_t;$/;"	t	typeref:union:__anon4
+string	bfd.h	/^  const char *string;$/;"	m	struct:bfd_hash_entry
+sun_core_data	bfd.h	/^      struct sun_core_struct *sun_core_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::sun_core_struct
+sym	bfd.h	/^    struct symbol_cache_entry *sym; \/* Function name *\/$/;"	m	union:lineno_cache_entry::__anon1	typeref:struct:lineno_cache_entry::__anon1::symbol_cache_entry
+sym_ptr_ptr	bfd.h	/^  struct symbol_cache_entry **sym_ptr_ptr;$/;"	m	struct:reloc_cache_entry	typeref:struct:reloc_cache_entry::symbol_cache_entry
+symbol	bfd.h	/^   struct symbol_cache_entry *symbol;$/;"	m	struct:sec	typeref:struct:sec::symbol_cache_entry
+symbol_cache_entry	bfd.h	/^typedef struct symbol_cache_entry$/;"	s
+symbol_info	bfd.h	/^} symbol_info;$/;"	t	typeref:struct:_symbol_info
+symbol_leading_char	bfd.h	/^  char symbol_leading_char;$/;"	m	struct:bfd_target
+symbol_ptr_ptr	bfd.h	/^   struct symbol_cache_entry **symbol_ptr_ptr;$/;"	m	struct:sec	typeref:struct:sec::symbol_cache_entry
+symcount	bfd.h	/^    unsigned int symcount;$/;"	m	struct:_bfd
+symindex	bfd.h	/^typedef unsigned long symindex;$/;"	t
+symvalue	bfd.h	/^typedef unsigned BFD_HOST_64_BIT symvalue;$/;"	t
+symvalue	bfd.h	/^typedef unsigned long symvalue;$/;"	t
+table	bfd.h	/^  struct bfd_hash_entry **table;$/;"	m	struct:bfd_hash_table	typeref:struct:bfd_hash_table::bfd_hash_entry
+tail	debug.h	/^	unsigned int tail;$/;"	m	class:debug_buffer
+target_defaulted	bfd.h	/^    bool target_defaulted;$/;"	m	struct:_bfd
+target_index	bfd.h	/^   int target_index;$/;"	m	struct:sec
+tdata	bfd.h	/^      } tdata;$/;"	m	struct:_bfd	typeref:union:_bfd::__anon2
+tekhex_data	bfd.h	/^      struct tekhex_data_struct *tekhex_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::tekhex_data_struct
+temp	obstack.h	/^  PTR_INT_TYPE temp;		\/* Temporary for some macros.  *\/$/;"	m	struct:obstack
+text_start	ecoff.h	/^  int text_start;$/;"	m	struct:ecoff_aouthdr
+the_bfd	bfd.h	/^  struct _bfd *the_bfd;  \/* Use bfd_asymbol_bfd(sym) to access this field. *\/$/;"	m	struct:symbol_cache_entry	typeref:struct:symbol_cache_entry::_bfd
+the_default	bfd.h	/^  bool the_default;	$/;"	m	struct:bfd_arch_info
+trad_core_data	bfd.h	/^      struct trad_core_struct *trad_core_data;$/;"	m	union:_bfd::__anon2	typeref:struct:_bfd::__anon2::trad_core_struct
+trap_inst	Thread.h	/^SS_INST_TYPE trap_inst;         \/\/ 06\/09\/01 ER$/;"	m	class:Thread
+tsize	ecoff.h	/^  int tsize;$/;"	m	struct:ecoff_aouthdr
+type	bfd.h	/^  char type;$/;"	m	struct:_symbol_info
+type	bfd.h	/^  unsigned int type;$/;"	m	struct:reloc_howto_struct
+u	bfd.h	/^  } u;$/;"	m	struct:lineno_cache_entry	typeref:union:lineno_cache_entry::__anon1
+udata	bfd.h	/^  PTR udata;$/;"	m	struct:symbol_cache_entry
+uint64_type	bfd.h	/^typedef unsigned BFD_HOST_64_BIT uint64_type;$/;"	t
+uint64_type	bfd.h	124;"	d
+uint64_typeHIGH	bfd.h	129;"	d
+uint64_typeLOW	bfd.h	128;"	d
+use_extra_arg	obstack.h	/^  unsigned use_extra_arg:1;	\/* chunk alloc\/dealloc funcs take extra arg *\/$/;"	m	struct:obstack
+used_by_bfd	bfd.h	/^   PTR used_by_bfd;$/;"	m	struct:sec
+user_set_vma	bfd.h	/^   bool user_set_vma;$/;"	m	struct:sec
+userdata	bfd.h	/^   PTR userdata;$/;"	m	struct:sec
+usrdata	bfd.h	/^    PTR usrdata;$/;"	m	struct:_bfd
+value	bfd.h	/^  symvalue value;$/;"	m	struct:_symbol_info
+value	bfd.h	/^  symvalue value;$/;"	m	struct:symbol_cache_entry
+value	debug.h	/^	unsigned int value;	\/\/ destination value$/;"	m	struct:__anon3
+value	ecoff.h	/^  int value;$/;"	m	struct:ecoff_SYMR
+vma	bfd.h	/^   bfd_vma vma;$/;"	m	struct:sec
+vstamp	ecoff.h	/^  short vstamp;$/;"	m	struct:ecoff_aouthdr
+vstamp	ecoff.h	/^  short vstamp;$/;"	m	struct:ecoff_symhdr_t
+wakeup	Thread.h	/^void wakeup(SS_ADDR_TYPE lockaddr) {$/;"	f	class:Thread
+warn	misc.h	156;"	d
+where	bfd.h	/^    file_ptr where;              $/;"	m	struct:_bfd
+why_vector	debug.h	/^	unsigned int why_vector;$/;"	m	struct:__anon5
+words	debug.h	/^	unsigned int words[2];$/;"	m	union:__anon4
+write_armap	bfd.h	/^  bool  (*write_armap) PARAMS ((bfd *arch, $/;"	m	struct:bfd_target
+write_direction	bfd.h	/^                        write_direction = 2,$/;"	e	enum:_bfd::bfd_direction
+xvec	bfd.h	/^    const struct bfd_target *xvec;$/;"	m	struct:_bfd	typeref:struct:_bfd::bfd_target
+~Thread	Thread.h	/^~Thread() {$/;"	f	class:Thread
+~debug_buffer	debug.h	/^	~debug_buffer() {$/;"	f	class:debug_buffer
